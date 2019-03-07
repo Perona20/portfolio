@@ -1,0 +1,191 @@
+body{
+   background-color: #00723f; 
+    margin-right: 0px;
+    margin-left: 0px;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #ffffff;
+    font-family: 'Kavivanar', cursive;
+}
+#contenedorLogo{
+    width: 50%;
+    float: left;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+#enlaces{
+    width: 50%;
+    float: right;
+}
+#menu {
+	float: left;
+    padding-top: 80px;
+}
+.ulmenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+	
+.liulmenu {
+    display: inline-block;
+}
+			
+.aliulmenu {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #00723f;
+    font-size: 20px;
+}
+.aliulmenu:hover {
+    background:  #0b421a;
+    color: #fffcfc;
+}
+section{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+}
+#espacio{
+    width: 100%;
+    height: 700px;
+    background-image: url(imagenes/fondo_espacio_uno_prueba.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+#tituloEspacio{
+    float: right;
+    padding-top: 200px;
+    width: 60%;
+    text-align: center;
+}
+#tituloEspacio p{
+    
+    font-family: 'Dancing Script', cursive;
+    color: 	#fffcfc;
+    font-size: 80px;
+    margin-top: 0px;
+    padding-right: 50px;
+    text-shadow: 4px 1px #0b421a;
+}
+#primeraImagen{
+    background-color: #e3e2dc;
+    text-align: center;
+    height: 700px;
+    position: relative;
+}
+#imagenUno{
+    width: 1200px;
+    height: 600px;
+    padding-top: 50px;
+    left: 50%;
+}
+#textoImagenUno p{
+    font-family: 'Righteous', cursive;
+    color: 	#00723f;
+    font-size: 90px;
+    margin-top: 0px;
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    text-shadow: 1px 4px #fffcfc;
+}
+
+#segundaImagen{
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    background-color:#fff;
+    position: relative;
+}
+#imagenDos{
+    width: 1200px;
+    height: 500px;
+    padding-top: 50px;
+    left: 50%;
+}
+#textoImagenDos p{
+    font-family: 'Righteous', cursive;
+    color: 	#00723f;
+    font-size: 100px;
+    margin-top: 0px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    text-shadow: 1px 4px #fffcfc;
+}
+#terceraImagen{
+    width: 100%;
+    height: 300px;
+    background-color: #e2dacf;
+    text-align: center;
+}
+#textoTerceraImagen p{
+    font-family: 'Coiny', cursive;
+    color: 	#00723f;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 70px;
+}
+#boton{
+    background-color: transparent;
+    font-family: 'Coiny', cursive;
+    color: 	#00723f;
+    border-color: #00723f;
+    border-radius: 25px;
+    font-size: 25px;
+    width: 170px;
+    height: 60px;
+}
+#boton:hover{
+    background-color: #00723f;
+    color: #fffcfc;
+    cursor:pointer;
+}
+footer{
+    background-color: #312020;
+    width: 100%;
+    height:400px;
+    color: #fffcfc;
+    font-family: 'Kavivanar', cursive;
+    display: block;
+    padding-top: 100px;
+}
+#logofooter,#textoFooterUno,#textoFooterDos,#redes{
+    display: inline-block;
+}
+.ulmenuFooter{
+    list-style: none;
+}
+#logofooter{
+    width: 22%;
+}
+#textoFooterUno{
+    width: 22%;
+}
+#textoFooterDos{
+    width: 22%;
+}
+#titulofooter{
+   font-size: 20px; 
+}
+#redes{
+    width: 22%;
+    font-size: 15px;
+}
+#iconored{
+    font-size: 40px;
+    padding: 5px;
+}
+#redes li {
+    list-style: none;
+}

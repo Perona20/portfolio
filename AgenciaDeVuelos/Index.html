@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0" /> 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
+        type="text/javascript" charset="utf-8"></script>
+       <script type="text/javascript" src="Index.js"></script>
+        <link href="Index.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Chela+One|Sofadi+One|Tenali+Ramakrishna" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Londrina+Sketch" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Viaja Fácil</title>
+    </head>
+    <body>
+        <header>
+            <div id="contenedorLogo">
+                <p>Viaja Fácil</p>
+            </div>
+            <div id="enlaces">
+                <nav id="menu">
+                    <ul class="ulmenu">
+                        <li class="liulmenu"><a class="aliulmenu">Vuelos</a></li>
+                        <li class="liulmenu"><a class="aliulmenu">Viajes</a></li>
+                        <li class="liulmenu"><a class="aliulmenu">Hoteles</a></li>
+                        <li class="liulmenu"><a class="aliulmenu">Coches</a></li>
+                        <li class="liulmenu"><a class="aliulmenu">Destinos</a></li>
+                        <li class="liulmenu"><a class="aliulmenu">Comunidad</a></li>
+                    </ul>
+            </nav>
+            </div>
+        </header>
+        <section>
+            <div id="primerContenedor">
+                <div id="formulario">
+                <form id="forM" action="" method="post">
+                    <div class="destino">
+                        <select class="inputDestino" id="ciudadOrigen">
+                            <option  value="selecciona" selected>Ciudad Origen</option>
+                            <option class="valor" id="Madrid" value="Palma">Palma</option>
+                            <option class="valor" value="Lugo">Lugo</option>
+                            <option class="valor" value="Barna">Barna</option>
+                            <option class="valor" value="Madrid">Madrid</option>
+                            <option class="valor" value="Praga">Praga</option>
+                            <option class="valor" value="Barcelona">Barcelona</option>
+                        </select>
+                        <select class="inputDestino" id="ciudadDestino">
+                            <option value="selecciona" selected>Ciudad Destino</option>
+                            <option class="valor" value="Bilbao">Bilbao</option>
+                            <option class="valor" value="Palma">Palma</option>
+                            <option class="valor" value="Londres">Londres</option>
+                            <option class="valor" value="Barcelona">Barcelona</option>
+                            <option class="valor" value="Paris">Paris</option>
+                            <option class="valor" value="Madrid">Madrid</option>
+                            <option class="valor" value="Oslo">Oslo</option>
+                        </select>
+                    </div>
+                    <div class="fecha">
+                        <input class="input"  type="date" id="fechaSalida" name="fechaSalida"  tabindex="3"/>
+                        <input class="input" type="date" id="fechaLlegado" name="fechaLlegada"   tabindex="4"/>
+                        <label><input type="radio"  class="inputCheck" name="tipoViaje" id="idaYvuelta" value="soloIda">Ida y Vuelta</label>
+                        <label><input type="radio" class="inputCheck" name="tipoViaje" id="soloIda" value="idaYvuelta">Sólo Ida</label>
+                    </div>
+                    <div class="pasajeros">
+                        <select class="inputPasajeros" id="adultos">
+                            <option value="selecciona" selected>0</option>
+                            <option value="volvo">1</option>
+                            <option value="saab">2</option>
+                            <option value="fiat">3</option>
+                            <option value="audi">4</option>
+                        </select>
+                         <select class="inputPasajeros" id="ninos">
+                            <option value="selecciona" selected>0</option>
+                            <option value="volvo">1</option>
+                            <option value="saab">2</option>
+                            <option value="fiat">3</option>
+                            <option value="audi">4</option>
+                        </select>
+                         <select class="inputPasajeros" id="bebes">
+                            <option value="selecciona" selected>0</option>
+                            <option value="volvo">1</option>
+                            <option value="saab">2</option>
+                            <option value="fiat">3</option>
+                            <option value="audi">4</option>
+                        </select>
+                         <select class="inputTipoVuelo" id="tipoVuelo">
+                            <option value="selecciona" selected>Selecciona el tipo de vuelo</option>
+                            <option value="volvo">Turista</option>
+                            <option value="saab">Business</option>
+                            <option value="fiat">Primera</option>
+                        </select>
+                    </div>
+                    <div id="contenedorboton">
+				        <input id="boton" type="button" onclick="encontrarVuelo()" value="Buscar"/>
+			        </div>
+                </form>
+                </div>
+            </div>
+            <div id="muestra"></div>
+            <div id="segundoContenedor">
+                <div id="texto">
+                    <p>Cada semana, nuestros periodistas publican reportajes dedicados a los principales temas relacionados con el mundo de los viajes. Actualidades, trucos para viajar, recomendaciones y excelentes planes de viajes. ¡Todo lo que necesitas para viajar lo encontrarás aquí!<br/><br/><strong>Jean-Pierre Nadir,
+                    Fundador</strong></p>
+                </div>
+                <div id="imagenes">
+                    <div id="imgUno">
+                        <span>
+                            <img  id="imagUno" class="img" src="imagenes/imgUno.jpg">
+                        </span>
+                        <span>
+                            <p>Viajar a Japón: 5 actividades al aire libre para disfrutar </p>
+                        </span>
+                    </div>
+                    <div id="imgDos">
+                        <span>
+                            <img  class="img" src="imagenes/imgDos.jpg">
+                        </span>
+                        <span>
+                            <p>Más trenes turísticos en Asia este año</p>
+                        </span>
+                    </div>
+                    <div id="imgTres">
+                        <span>
+                            <img class="img" src="imagenes/imgTres.jpg">
+                            <p>Los mejores destinos europeos para visitar</p>
+                        </span>
+                    </div>
+                    <div id="imgCuatro">
+                        <span>
+                            <img class="img" src="imagenes/imgCuatro.jpg">
+                            <p>De ruta por las islas griegas</p>
+                        </span>
+                    </div>
+                    <div id="imgCinco">
+                        <span>
+                            <img class="img" src="imagenes/imgCinco.jpg">
+                            <p>No puedes perderte estas rutas en Perú</p>
+                        </span>
+                    </div>
+                    <div id="imgSeis">
+                        <span>
+                            <img class="img" src="imagenes/imgSeis.jpg">
+                            <p>Ryanair reduce los días de facturación gratuita</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div id="tercerContenedor">
+                <div id="tituloTercerContenedor">
+                    <p>Ofertas Última Hora</p>
+                </div>
+                <div id="tablaOfertas">
+                    <div id="imagenOferta"></div>
+                    <div class="filImpar">
+                        <p><strong>Azores, Isla Terceira-Súper Oferta</strong></p>
+                        <p>Portugal,Angra de Heroísmo-23/06/2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desde <strong class="precio">119€</strong></p>  
+                    </div>
+                    <div class="filaPar">
+                        <p><strong>Azores, Isla Terceira-Súper Oferta</strong></p>
+                        <p>Portugal,Angra de Heroísmo-23/06/2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desde <strong class="precio">119€</strong></p>  
+                    </div>
+                    <div class="filImpar">
+                        <p><strong>Azores, Isla Terceira-Súper Oferta</strong></p>
+                        <p>Portugal,Angra de Heroísmo-23/06/2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desde <strong class="precio">119€</strong></p>  
+                    </div>
+                    <div class="filaPar">
+                        <p><strong>Azores, Isla Terceira-Súper Oferta</strong></p>
+                        <p>Portugal,Angra de Heroísmo-23/06/2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desde <strong class="precio">119€</strong></p>  
+                    </div>
+                    <div class="filImpar">
+                        <p><strong>Azores, Isla Terceira-Súper Oferta</strong></p>
+                        <p>Portugal,Angra de Heroísmo-23/06/2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desde <strong class="precio">119€</strong></p>  
+                    </div>
+                    <div id="ultimaFila" class="filaPar">
+                        <p><strong>Azores, Isla Terceira-Súper Oferta</strong></p>
+                        <p>Portugal,Angra de Heroísmo-23/06/2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desde <strong class="precio">119€</strong></p>  
+                    </div>
+                </div>
+                <div id="chollos">
+                    <div id="tituloChollo">
+                        <p>Los Chollos - Billetes de avión y estancias propuestas por nuestros colaboradores</p>
+                    </div>
+                    <div id="primerChollo">
+                        <div class="tituloChollo"><p>Hoteles</p></div>
+                        <div class="imgChollo" id="imgPrimerChollo"></div>
+                        <div class="cholloImpar">Roma&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">29€</strong></div>
+                        <div class="cholloPar">Milán&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">32€</strong></div>
+                        <div class="cholloImpar">Mallorca&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">45€</strong></div>
+                        <div class="cholloPar">Tenerife&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">53€</strong></div>
+                        <div class="cholloImpar">Lisboa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">64€</strong></div>
+                    </div>
+                    <div id="segundoChollo">
+                        <div class="tituloChollo"><p>Viajes</p></div>
+                        <div class="imgChollo" id="imgSegundoChollo"></div>
+                        <div class="cholloImpar">Menorca&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">204€</strong></div>
+                        <div class="cholloPar">Gran Canaria&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">214€</strong></div>
+                        <div class="cholloImpar">Disney Paris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">191€</strong></div>
+                        <div class="cholloPar">Riviera Maya&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">796€</strong></div>
+                        <div class="cholloImpar">Nueva York&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">1038€</strong></div>
+                    </div>
+                    <div id="tercerChollo">
+                        <div class="tituloChollo"><p>Viajes</p></div>
+                        <div class="imgChollo" id="imgTercerChollo"></div>
+                        <div class="cholloImpar">Fiordos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">1150€</strong></div>
+                        <div class="cholloPar">MSC Divinia&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">1150€</strong></div>
+                        <div class="cholloImpar">Islas Griegas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">1275€</strong></div>
+                        <div class="cholloPar">Costa Diadema&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">1035€</strong></div>
+                        <div class="cholloImpar">Circuito Flandes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">1465€</strong></div>
+                    </div>
+                    <div id="cuartoChollo">
+                        <div class="tituloChollo"><p>Vuelos</p></div>
+                        <div class="imgChollo" id="imgCuartoChollo"></div>
+                        <div class="cholloImpar">Paris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">10€</strong></div>
+                        <div class="cholloPar">Londres&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">16€</strong></div>
+                        <div class="cholloImpar">Madird&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">37€</strong></div>
+                        <div class="cholloPar">Praga&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">52€</strong></div>
+                        <div class="cholloImpar">Amsterdam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong class="precio">40€</strong></div>
+                    </div>
+                     <div id="contenedorBotonChollo">
+				        <input id="botonChollo" type="button" onclick="ensenarTodo()" value="Buscar más Chollos"/>
+			        </div>
+                </div>
+            </div>
+        </section>
+        <div id="muestraTodo"></div>
+        <footer>
+            <div id="contenedorFooterUno">
+                <div id="telefono">
+                    <p>Reserva tu viaje</p>
+                    <p><i class="fa fa-whatsapp"></i> 666 88 71 77</p>
+                </div>
+                <div id="newsletter">
+                    <div id="contenedorBotonFooter">
+                        <p>Newsletter</p>
+				        <input id="botonFooter" type="button"  value="Regístrate"/>
+			        </div>
+                    <div id="iconos">
+                        <i class="fa fa-facebook-square"></i>
+                        <i class="fa fa-twitter-square"></i>
+                        <i class="fa fa-google-plus-square"></i>
+                        <i class="fa fa-linkedin-square"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="contenedorFooterDos">
+                <div id="final">
+                    <div id="logoFinal">
+                        <p>Viaja Fácil</p>
+                    </div>
+                    <div id="creditos">
+                        <p>© 2001-2016 ViajaFácil - 2 Rue Paul Vaillant Couturier - 92300 Levallois-Perret</p>
+                        <div id="creditosFinal">
+                            <p id="creUno">Nuestro compromiso-</p>
+                            <p id="creDos">Menciones legales-</p>
+                            <p id="creTres">Vida privada y Cookies-</p>
+                            <p id="creCuatro">Confidencialidad</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+    

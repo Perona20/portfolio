@@ -1,0 +1,627 @@
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+header{
+    width: 100%;
+   height: 100px;
+    background-color:#aac8dc;
+}
+#contenedorLogo{
+    width: 30%;
+    float: left;
+}
+#contenedorLogo p{
+    font-family: 'Londrina Sketch', cursive;
+    font-size: 70px;
+    margin-bottom: 0px;
+    color: #2d174d;
+    text-shadow: 3px 3px #ffda8a;
+    font-weight: 600;
+    margin-top: 0px;
+    padding-left: 190px;
+}
+#enlaces{
+    width: 70%;
+    float: right;
+    font-family: 'Sofadi One', cursive;
+}
+#menu {
+	float: left;
+    padding-top: 70px;
+}
+.ulmenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+	
+.liulmenu {
+    display: inline-block;
+}
+			
+.aliulmenu {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #2d174d;
+    font-size: 20px;
+}
+.aliulmenu:hover {
+    cursor: pointer;
+}
+section{
+    margin-top: 0px;
+    width: 100%;
+}
+#primerContenedor{
+    
+    background-image: url(imagenes/fondo1.jpg);
+    height: 700px;
+    background-repeat:no-repeat;
+    background-size:cover; 
+    box-shadow: 3px 3px 30px rgba(0,0,0,1);
+}
+#formulario{
+    width: 70%;;
+    margin-left: 300px;
+    padding-top: 100px;
+    
+}
+forM{
+    background-color: rgba(144,208,240, 0.5); 
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 25px;
+    color: #2d174d	;
+    border-radius: 35px;;
+    box-shadow: 10px 10px 30px rgba(45,23,77,1);
+    height: 400px;
+}
+.destino{
+    display: inline-flex;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+.fecha{
+    display: inline-flex;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.input{
+    width: 300px;
+    height: 40px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    font-size: 30px;
+    background-image: url(imagenes/calendario.png);
+    background-size: 2.5rem;
+    background-position: 65%;
+    background-repeat:no-repeat;
+}
+.input:hover{
+    cursor:pointer;
+}
+.inputDestino{
+    width: 600px;
+    height: 50px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    font-size: 30px;
+    -webkit-appearance: button; 
+    -moz-appearance:button;
+}
+.inputDestino{
+    cursor:pointer;
+}
+.inputCheck{
+    width: 150px;
+    height: 40px;
+   -moz-appearance: checkbox;    /* Firefox */
+    -webkit-appearance: checkbox; /* Chrome, Safari, Opera */
+    -ms-appearance: checkbox;     /* IExplorer */
+}
+.inputCheck{
+    cursor:pointer;
+}
+.fecha label{
+    height: 40px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    font-size: 30px;
+    font-weight: 900;
+}
+.fecha label, .inputCheck{
+    display: inline-flex;
+}
+#contenedorboton{
+    padding-left: 350px;
+}
+.pasajeros{
+    display: inline-flex;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.inputPasajeros{
+    width: 100px;
+    height: 50px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    font-size: 30px;
+    -webkit-appearance: button;
+     -moz-appearance:button;
+}
+.inputPasajeros{
+    cursor:pointer;
+}
+#adultos{
+    background-image: url(imagenes/adultos.png);
+    background-size: 2.0rem;
+    background-position: 70%;
+    background-repeat:no-repeat;
+/*    background-size:cover; */
+}
+#ninos{
+    background-image: url(imagenes/ni%C3%B1os.png);
+    background-size: 2.0rem;
+    background-position: 70%;
+    background-repeat:no-repeat; 
+}
+#bebes{
+   background-image: url(imagenes/bebes.png);
+    background-size: 2.0rem;
+    background-position: 70%;
+    background-repeat:no-repeat; 
+}
+.inputTipoVuelo{
+    width: 900px;
+    height: 50px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    font-size: 30px;
+    -webkit-appearance: button;
+    -moz-appearance:button;
+}
+.inputTipoVuelo{
+    cursor:pointer;
+}
+#contenedorboton{
+    padding-top: 50px;
+}
+#boton{
+    background-color: transparent;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    border-color: #2d174d;
+    border-radius: 25px;
+    font-size: 30px;
+    font-weight: 900;
+    width: 570px;
+    height: 40px;
+}
+#boton:hover{
+    background-color: #2d174d;
+    color: #fffcfc;
+    cursor:pointer;
+}
+#muestra{
+    clear: both;
+    width: 100%;
+    height: auto
+}
+#contenedorOferta{
+     background-color: rgba(144,208,240, 0.5);
+    border-radius: 35px;;
+    box-shadow: 10px 10px 30px rgba(45,23,77,1);
+    width: 30%;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+##tituloOferta{
+    text-align: center;
+}
+#tituloOferta p{
+   font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+#ofertas{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    font-size: 20px;
+}
+#ofertas label{
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 100px;
+}
+#ofertas p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-left: 100px;
+}
+#btn{
+    background-color: transparent;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    border-color: #2d174d;
+    border-radius: 25px;
+    font-size: 30px;
+    font-weight: 900;
+    width: 170px;
+    height: 40px; 
+    margin-left: 200px;
+}
+#btn:hover{
+    background-color: #2d174d;
+    color: #fffcfc;
+    cursor:pointer;
+}
+#segundoContenedor{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+}
+
+
+#texto{
+    padding-top: 100px;
+    width: 20%;
+    float: left;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    font-size: 25px;
+    
+}
+#texto p{
+    padding-left: 90px;
+}
+#imagenes{
+    padding-top: 100px;
+    width: 60%;
+    float: right;
+    padding-right: 200px;
+    
+}
+#imgUno p{
+margin-bottom: -10px;
+}
+#imgUno,#imgDos,#imgTres,#imgCuatro,#imgCinco,#imgSeis{
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    overflow:hidden;
+    text-align: center;
+    padding: 0px;
+}
+#imgUno p,#imgDos p,#imgTres p,#imgCuatro p,#imgCinco p,#imgSeis p{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 0px;
+    padding: 0px;
+}
+#imgUno:hover .img,#imgDos:hover .img,#imgTres:hover .img,#imgCuatro:hover .img,#imgCinco:hover .img,#imgSeis:hover .img{
+    -webkit-transform:scale(0.9);
+    transform:scale(0.9);
+    cursor: pointer;
+
+}
+.img{
+    width: 300px;
+    height: 200px;
+    display;
+}
+
+
+#tercerContenedor{
+    clear: both;
+    width: 100%;
+    height: 800px;
+    background-color: #e6fafa;
+    padding-bottom: 40px;
+}
+#tituloTercerContenedor{
+   
+}
+#tituloTercerContenedor p{
+    margin-top: 0px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    font-size: 50px;
+    padding-left: 200px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+#tablaOfertas{
+    padding-left: 100px;
+    width: 30%;
+    float: left;
+}
+#chollos{
+    width: 60%;
+    float: right;
+}
+#imagenOferta{
+    height: 200px;
+    border-left: 1px solid #2d174d;
+    border-right: 1px solid #2d174d;
+    border-top: 1px solid #2d174d;
+    background-image: url(imagenes/imgOfertas.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+}
+.filImpar{
+    
+    
+}
+.filaPar{
+    
+     
+}
+.filImpar p{
+    background-color:#b3cde0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    font-size: 20px;
+    padding-left: 10px;
+    border-left: 1px solid #2d174d;
+    border-right: 1px solid #2d174d;
+}
+.filaPar p{
+    background-color: #fdfbfb;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    font-size: 20px;
+    padding-left: 10px;
+    border-left: 1px solid #2d174d;
+    border-right: 1px solid #2d174d;
+}
+#ultimaFila{
+    border-bottom: 1px solid #2d174d;
+}
+.precio{
+    font-size: 25px;
+    color: #cc181e;
+}
+#tituloChollo{
+   
+}
+#tituloChollo p{
+    margin-top: 0px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    font-size: 30px;
+    font-weight: 900;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+#primerChollo, #segundoChollo, #tercerChollo, #cuartoChollo{
+    display: inline-block;
+    width: 20%;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    font-size: 20px;
+}
+.tituloChollo{
+    text-align: center;
+    font-size: 30px;
+}
+.tituloChollo p{
+    margin-bottom: 0px;
+}
+#imgPrimerChollo{
+    background-image: url(imagenes/cholloUno.jpg);
+    height: 100px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#imgSegundoChollo{
+    background-image: url(imagenes/cholloDos.jpg);
+    height: 100px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#imgTercerChollo{
+    background-image: url(imagenes/CholloTres.jpg);
+    height: 100px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#imgCuartoChollo{
+    background-image: url(imagenes/CholloCuatro.jpg);
+    height: 100px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.cholloImpar{
+    padding-left: 10px;   
+    background-color: 	#b3cde0;
+}
+.cholloPar{
+    padding-left: 10px;
+    background-color: #fdfbfb;
+}
+#contenedorBotonChollo{
+    padding-top: 50px;
+    padding-left: 180px;
+}
+#botonChollo{
+    background-color: transparent;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    border-color: #2d174d;
+    border-radius: 25px;
+    font-size: 30px;
+    font-weight: 900;
+    width: 570px;
+    height: 50px;
+}
+#botonChollo:hover{
+    background-color: #2d174d;
+    color: #fffcfc;
+    cursor:pointer;
+}
+#muestraTodo{
+    clear: both;
+    width: 100%;
+    height: auto
+}
+#contenedorOfertaTodo{
+/*     background-color: rgba(144,208,240, 0.5);*/
+    border-radius: 35px;;
+    box-shadow: 10px 10px 30px rgba(45,23,77,1);
+    margin-bottom: 0px;
+    text-align: center;
+}
+##tituloOfertaTodo{
+    text-align: center;
+}
+#tituloOfertaTodo p{
+   font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+#ofertasTodo{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    font-size: 20px;
+   
+}
+/*#ofertasTodo label{
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}*/
+#ofertasTodo p{
+  font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#btnTodo{
+    background-color: transparent;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    color: #2d174d	;
+    border-color: #2d174d;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 900;
+    width: 170px;
+    height: 25px; 
+    margin-left: 0px;
+}
+#btnTodo:hover{
+    background-color: #2d174d;
+    color: #fffcfc;
+    cursor:pointer;
+}
+footer{
+    clear: both;
+    width: 100%;
+    height: 400px;
+    background-color: #424a54;
+    font-family: 'Sofadi One', cursive;
+    color: #aac8dc;
+    
+}
+#telefono{
+    width: 30%;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+}
+#telefono p{
+    margin-bottom: 0px;
+}
+#telefono i{
+    font-size: 30px;
+}
+#newsletter{
+    width: 70%;
+    float: right;
+    text-align: center;
+    font-size: 30px;
+}
+#contenedorBotonFooter{
+    
+}
+#botonFooter{
+    background-color: transparent;
+    font-family: 'Sofadi One', cursive;
+    color: #2d174d	;
+    border-color: #2d174d;
+    border-radius: 25px;
+    font-size: 30px;
+    font-weight: 900;
+    width: 570px;
+    height: 50px;
+}
+#botonFooter:hover{
+    background-color: #2d174d;
+    color: #fffcfc;
+    cursor:pointer;
+}
+#newsletter i{
+    font-size: 60px;
+    padding-top: 90px;
+    padding: 10px;
+}
+#newsletter i:hover{
+    color: #2d174d;
+    cursor: pointer;
+}
+nal{
+    clear: both;
+    width: 100%;
+}
+#logoFinal{
+    width: 30%;
+    float: left;
+}
+#logoFinal p{
+    font-family: 'Londrina Sketch', cursive;
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: #2d174d;
+    text-shadow: 3px 3px #ffda8a;
+    font-weight: 600;
+    margin-top: 0px;
+    padding-left: 190px;
+    padding-top: 150px;
+}
+#creditos{
+    width: 70%;
+    float: right;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 0px;
+}
+#creUno, #creDos, #creTres, #creCuatro{
+    margin-top: 0px;
+    display: inline-flex;
+    margin-bottom: 0px;
+}
+#creUno:hover, #creDos:hover, #creTres:hover, #creCuatro:hover{
+        color: #2d174d;
+        cursor: pointer;
+}

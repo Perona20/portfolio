@@ -1,0 +1,12 @@
+font-family: 'Sofadi One', cursive;
+font-family: 'Chela One', cursive;
+font-family: 'Tenali Ramakrishna', sans-serif;
+font-family: 'Londrina Sketch', cursive;
+
+Colores:
+
+#90d0f0	(144,208,240) fondo formulario.
+#aac8dc	(170,200,220) header
+#c4c0c8 (196,192,200)
+#2d174d	(45,23,77)  letras
+#424a54	(66,74,84) footer

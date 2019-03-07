@@ -1,0 +1,120 @@
+body{
+   background-color: #00723f; 
+    margin-right: 0px;
+    margin-left: 0px;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background-color: #ffffff;
+    font-family: 'Kavivanar', cursive;
+}
+#contenedorLogo{
+    width: 50%;
+    float: left;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    padding-left: 200px;
+    padding-top: 10px;
+}
+#enlaces{
+    width: 50%;
+    float: right;
+}
+#menu {
+	float: left;
+    padding-top: 80px;
+}
+.ulmenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+	
+.liulmenu {
+    display: inline-block;
+}
+			
+.aliulmenu {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #00723f;
+    font-size: 20px;
+}
+.aliulmenu:hover {
+    background:  #0b421a;
+    color: #fffcfc;
+}
+section{
+/*    background-color: #bbbbbb;*/
+    width: 100%;
+    height: 700px;
+    background-image:url(../imagenes/fondo_formulario.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-top: 0px;
+}
+#infoForm{
+    text-align: center;
+    font-family: 'Kavivanar', cursive;
+    color:#fffcfc;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-left: 250px;
+    padding-right: 200px;
+    padding-top: 200px;
+}
+#volver{
+    text-align: center;
+    font-family: 'Kavivanar', cursive;
+    color:#fffcfc;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 0px;
+}
+#contenedorEnlace{
+    text-align: center;
+}
+footer{
+    background-color: #312020;
+    width: 100%;
+    height:400px;
+    color: #fffcfc;
+    font-family: 'Kavivanar', cursive;
+    display: block;
+    padding-top: 100px;
+}
+#logofooter,#textoFooterUno,#textoFooterDos,#redes{
+    display: inline-block;
+}
+.ulmenuFooter{
+    list-style: none;
+}
+#logofooter{
+    width: 22%;
+}
+#textoFooterUno{
+    width: 22%;
+}
+#textoFooterDos{
+    width: 22%;
+}
+#titulofooter{
+   font-size: 20px; 
+}
+#redes{
+    width: 22%;
+    font-size: 15px;
+}
+#iconored{
+    font-size: 40px;
+    padding: 5px;
+}
+#redes li {
+    list-style: none;
+}

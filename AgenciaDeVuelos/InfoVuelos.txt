@@ -1,0 +1,82 @@
+[
+        {
+            "origen":"Palma",
+            "destino": "Oslo",
+            "fechaSalida":"20/06/2018",
+            "fechaLlegada":"23/06/2018",
+            "tipoDeVuelo":"Turista",
+            "precio":"976€"
+        },
+        {
+            "origen":"Lugo",
+            "destino": "Madrid",
+            "fechaSalida":"21/06/2018",
+            "fechaLlegada":"26/06/2018",
+            "tipoDeVuelo":"Turista",
+            "precio":"50€"
+        },
+        {
+            "origen":"Barna",
+            "destino": "Paris",
+            "fechaSalida":"21/06/2018",
+            "fechaLlegada":"27/06/2018",
+            "tipoDeVuelo":"Turista",
+            "precio":"800€"
+        },
+        {
+            "origen":"Palma",
+            "destino": "Madrid",
+            "fechaSalida":"18/06/2018",
+            "fechaLlegada":"22/06/2018",
+            "tipoDeVuelo":"Primera",
+            "precio":"100€"
+            },
+        {
+            "origen":"Palma",
+            "destino": "Paris",
+            "fechaSalida":"18/06/2018",
+            "fechaLlegada":"20/06/2018",
+            "tipoDeVuelo":"Primera",
+            "precio":"600€"
+        },
+        {
+            "origen":"Madrid",
+            "destino": "Barcelona",
+            "fechaSalida":"18/06/2018",
+            "fechaLlegada":"23/06/2018",
+            "tipoDeVuelo":"Primera",
+            "precio":"300€"
+        },
+        {
+            "origen":"Praga",
+            "destino": "Londres",
+            "fechaSalida":"19/06/2018",
+            "fechaLlegada":"25/06/2018",
+            "tipoDeVuelo":"Business",
+            "precio":"730€"
+        },
+        {
+            "origen":"Barcelona",
+            "destino": "Bilbao",
+            "fechaSalida":"19/06/2018",
+            "fechaLlegada":"22/06/2018",
+            "tipoDeVuelo":"Business",
+            "precio":"250€"
+        },
+        {
+            "origen":"Barcelona",
+            "destino": "Palma",
+            "fechaSalida":"19/06/2018",
+            "fechaLlegada":"23/06/2018",
+            "tipoDeVuelo":"Business",
+            "precio":"150€"
+        },
+        {
+            "origen":"Palma",
+            "destino": "Bilbao",
+            "fechaSalida":"20/06/2018",
+            "fechaLlegada":"25/06/2018",
+            "tipoDeVuelo":"Primera",
+            "precio":"200€"
+        }
+]
