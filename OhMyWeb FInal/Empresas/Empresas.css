@@ -1,0 +1,1389 @@
+body{
+    width: 100%;
+    background: #4e5b6c;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+p::selection,h4::selection,h1::selection,strong::selection,a::selection,ul::selection,li::selection,div::selection,img::selection,span::selection{
+    background:  #dca459;
+    color: #282f3f;;
+}
+header{
+    background: #4e5b6c;
+    color: white;
+    height: auto;
+    width: 100%;
+    position: fixed; 
+    z-index: 1;
+}
+#logo{
+    width: 150px;
+    height: 60px;
+    padding-left: 0px;
+    padding-top: 8px;
+}
+#sublogos{
+    display: block;
+    font-weight: 800;
+    font-size: 15px;
+    color: white;
+    font-family: 'Amarante', cursive;
+    padding-left: 30px;
+}
+#nombre a {
+    color: white;
+}
+#nombre{
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+}
+#nombre:hover{
+    color: #0b76a6;
+}
+#menu {
+	float: right;
+    padding-top: 80px;
+}
+.ulmenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+	
+.liulmenu {
+    display: inline-block;
+}
+			
+.aliulmenu {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Amarante', cursive;
+    font-size: 15px;
+}
+.aliulmenu:hover {
+    background:  #dca459;
+    color: #282f3f;
+}
+a#pull{
+    display: none;
+}
+section{
+    clear: both;
+    width: 100%;
+    height: auto;
+}
+#hero{
+    margin-top: -60px;
+    background-image: url(../Imagenes/heroempresas.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 600px;
+}
+#titulo{
+    text-align: center;
+}
+#ptitulo{
+    color: #282f3f;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 60px;
+    padding-top: 100px;
+}
+#primeraSeccion{
+    height: 400px;;
+    background-color: #fdfdff;
+    margin-top: -29px;
+}
+#pdostitulo{
+    text-align: center;
+    color: #4e5b6c;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+}
+#trato{
+    text-align: center;
+}
+#imgtrato{
+    width: 200px;
+    height: 100px;
+}
+#parrafoUno{
+    color: #4e5b6c;
+    font-family: 'Amarante', cursive;
+    font-size: 20px;
+    width: 30%;
+    float: left;
+    padding-left: 350px;
+    
+}
+#parrafoDos{
+    color: #4e5b6c;
+    font-family: 'Amarante', cursive;
+    font-size: 20px;
+    width: 30%;
+    float: right;
+    padding-right: 350px;   
+}
+#segundaSeccion{
+    clear: both;
+    background-color: #dfe3ee;
+    margin-top: -49.6px;
+    text-align: center;
+}
+#ptituloSegunda{
+    color: #8b9dc3;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+}
+#pDosTituloSegunda{
+    color: #8b9dc3;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+    margin-top: -100px;
+}
+#ptresTituloSegunda{
+    color:#8b9dc3;
+    font-family: 'Amarante', cursive;
+    font-size: 30px;
+    margin-top: -90px;
+}
+#terceraSeccion{
+    clear: both;
+    background-color: #fdfdff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: -30px;
+}
+#iconos{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.divIconos{
+    width: 25%;
+    padding-bottom: 20px;
+}
+.divIconos p{
+    color:#282f3f;
+    font-family: 'Amarante', cursive;
+    font-size: 20px;
+}
+#iIconos{
+    font-size: 150px;
+    color: #282f3f;
+    
+}
+#iIconos:hover::before{
+    color: #dca459;
+}
+#primerIcono,#segundoIcono,#tercerIcono{
+    display: inline-block;
+}
+#cuartoIcono,#quintoIcono,#sextoIcono{
+    display: inline-block
+}
+/*.imgservicios{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    padding: 50px;
+    
+}
+.imgservicios:hover::before{
+    
+}
+#imganalitica, #imgcobertura,#imggestordecontenidos{
+   display: inline-block;
+} 
+#imghostingydominios, #imgposicionamiento,#imglogotipos{
+   display: inline-block;
+}
+.divservicios{
+    color: #8b9dc3;
+    font-family: 'Amarante', cursive;
+    font-size: 20px;
+}*/
+#cuartaSeccion{
+    clear: both;
+    background-color: #dfe3ee;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: -69.99px;
+}
+#tituloCuarta{
+    color: #8b9dc3;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 70px;
+}
+#subTitCuarta{
+    font-family: 'Amarante', cursive;
+    font-size: 20px;
+    color: #8b9dc3;
+    margin-top: -60px;
+}
+#basico{
+    width: 20%;
+    display: inline-block;
+    border: 4px solid #f1f1f1;
+}
+#basico:hover{ 
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #f1f1f1;
+    border: 4px solid #4e5b6c;
+    cursor:pointer;
+}
+#pro{
+    width: 20%;
+    display: inline-block;
+    border: 4px solid #f1f1f1;
+    position: relative;
+}
+
+#pro:hover{ 
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #f1f1f1;
+    border: 4px solid #4e5b6c;
+    cursor:pointer;
+}
+#full{
+    width: 20%;
+    display: inline-block;
+    border: 4px solid #f1f1f1;
+
+}
+#full:hover{ 
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: #f1f1f1;
+    border: 4px solid #4e5b6c;
+    cursor:pointer;
+}
+.precio{
+    font-family: 'Amarante', cursive;
+    font-size: 40px;
+    color: #8b9dc3;
+}
+.pPaquete{
+    font-family: 'Amarante', cursive;
+    font-size: 20px;
+    color: #8b9dc3;
+}
+.ptachado{
+    text-decoration: line-through;
+    font-family: 'Amarante', cursive;
+    font-size: 20px;
+    color: #8b9dc3;
+}
+#personaliza{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: auto;
+    
+}
+#personalizaTitulo{
+    color: #8b9dc3;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 40px;
+}
+#personalizaSubTitulo{
+    color: #8b9dc3;
+    font-family: 'Amarante', cursive;
+    font-size: 20px;
+    margin-top: -40px;
+}
+#divBotonPersonaliza{
+    background-color: #f1f1f1;
+    height: auto;
+}
+#botonPersonaliza{
+    background-color: transparent;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-color: #282f3f;
+    border-radius: 25px;
+    font-size: 25px;
+    width: 170px;
+    height: 60px;
+}
+#botonPersonaliza:hover{
+    background-color: #282f3f;
+    color: white;
+    cursor:pointer;
+}
+#quintaSeccion{
+    background-color: #f7f7f7;
+    width: 100%;  
+    height: auto;
+    margin-top: -20px;
+}
+/*#compra{
+    width: 50%; 
+    border: 4px solid #dfe3ee;
+    margin-left: 24%;
+    height: 650px;
+}*/
+#pack{
+    width: 20%;
+    border: 4px solid #dfe3ee;
+    margin-left: 10px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: auto;
+    float: left;
+}
+#cesta{
+        color: #8b9dc3;
+        font-family: 'Amarante', cursive;
+        font-size: 15px;
+        width: 40%;
+        border: 4px solid #dfe3ee;
+        height: 630px;
+        margin-left: 5%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        
+}
+#cestaPack{
+}
+#cestaPrecio{
+    width: 20%;
+    text-align: center;
+    color: #8b9dc3;
+    font-family: 'Amarante', cursive;
+    font-size: 25px;
+    float: right;
+}
+#botonTotal{
+    text-align: center;
+}
+#btnTotal{
+    background-color: transparent;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-color: #282f3f;
+    border-radius: 25px;
+    font-size: 25px;
+    width: 170px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+#btnTotal:hover{
+    background-color: #282f3f;
+    color: white;
+    cursor:pointer;
+}
+#btnCancelar{
+    background-color: transparent;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-color: #282f3f;
+    border-radius: 25px;
+    font-size: 25px;
+    width: 170px;
+    height: 60px; 
+}
+#btnCancelar:hover{
+    background-color: #282f3f;
+    color: white;
+    cursor:pointer;
+}
+#pack, #cesta, #cestaPrecio{
+    display: inline-block;
+}
+#listaPackNombre{
+    color: #8b9dc3;
+    font-family: 'Amarante', cursive;
+    font-size: 15px;
+}
+.reset{
+    background-color: transparent;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-color: #282f3f;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 900;
+    width: 100px;
+    height:30px;
+}
+
+.reset:hover{
+    background-color: #282f3f;
+    color: white;
+    cursor:pointer;
+}
+.botonAnadirPack{
+    background-color: transparent;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-color: #282f3f;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: 900;
+    width: 30px;
+    height: 25px;
+}
+.botonAnadirPack:hover{
+    background-color: #282f3f;
+    color: white;
+    cursor:pointer;
+}
+#sextaSeccion{
+    clear: both;
+    background-color: #f7f7f7;
+    width: 100%;
+    margin-top: -50px;
+    height: 950px;
+}
+#titulosSextaSeccion{
+    text-align: center;
+    background-color: #dfe3ee;
+}
+#tituloSexta{
+    color: #8b9dc3;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+}
+#subTituloSexta{
+    color: #8b9dc3;
+    font-family: 'Amarante', cursive;
+    font-size: 25px;
+    margin-top: -60px;
+}
+#contenedorFormulario{
+    width: 100%;
+}
+#formulario{
+    width: 45%;
+    float: left;
+    font-family: 'Amarante', cursive;
+    font-size: 15px;
+    color:  #3b5998;
+    border: 4px solid #dfe3ee;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#respuesta{
+    font-family: 'Amarante', cursive;
+    font-size: 20px;
+    color: #8b9dc3;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#divBotonFinalizar{
+    text-align: center;
+    height: auto;
+}
+#botonFinalizar{
+    background-color: transparent;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-color: #282f3f;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 900;
+    width: 150px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+#botonFinalizar:hover{
+    background-color: #282f3f;
+    color: white;
+    cursor:pointer;
+}
+form{
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.input{
+    display: block;
+    width: 500px;
+    height: 30px;
+    border: 1px solid #8b9dc3;
+    font-family: 'Amarante', cursive;
+    font-size: 15px;
+    color: #8b9dc3;
+}
+#EnQue{
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 500px;
+    max-width: 500px;
+}
+#benviar{
+    background-color: transparent;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-color: #282f3f;
+    border-radius: 25px;
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+#benviar:hover{
+    background-color: #282f3f;
+    color: white;
+    cursor:pointer;
+}
+#descripcion{
+    text-align: center;
+    width: 45%;
+    float: right;
+    border: 4px solid #dfe3ee;
+    font-family: 'Amarante', cursive;
+    font-size: 15px;
+    color:  #3b5998;
+    padding-bottom: 20px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#packSeleccionado{
+}
+#pPackElegido{
+}
+#precioTotal{
+    
+}
+#modificar{
+    background-color: transparent;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-color: #282f3f;
+    border-radius: 25px;
+    font-size: 25px;
+    width: 150px;
+    height: 50px; 
+}
+#modificar:hover{
+    background-color: #282f3f;
+    color: white;
+    cursor:pointer;
+}
+#cancelar{
+    background-color: transparent;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-color: #282f3f;
+    border-radius: 25px;
+    font-size: 25px;
+    width: 150px;
+    height: 50px; 
+}
+#cancelar:hover{
+    background-color: #282f3f;
+    color: white;
+    cursor:pointer;
+}
+footer{
+    width: 100%;
+    background: #4e5b6c;
+}
+#contenedorFooter{
+    display: block;
+    padding-left: 250px;
+    color: #f7f7f7;
+}
+#contenedorFooter ul {
+    list-style: none;
+}
+#contenedorFooter li{
+    padding: 10px;
+}
+#parteUno, #parteDos, #parteTres, #parteCuatro{
+    font-family: 'Amarante', cursive;
+    font-size: 15px;
+    display: inline-block;
+}
+.h4footer{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+    padding-left: 40px;
+    color: #dca459;
+}
+#parteUno{
+    width: 20%;
+}
+#parteDos{
+    width: 20%;
+}
+#parteTres{
+    width: 20%
+}
+#parteCuatro{
+    width: 20%;
+}
+#parteCuatro i{
+    font-size: 30px;
+    padding: 5px;
+}
+@media screen  and (max-width: 1720px){
+    #ptitulo{
+        padding-top: 160px;
+    }
+    #parrafoUno{
+        padding-left: 320px;
+    
+    }
+    #parrafoDos{
+        padding-right: 320px;   
+    }
+}
+@media screen  and (max-width: 1520px){
+    #ptitulo{
+        padding-top: 180px;
+        font-size: 50px;
+    }
+    #parrafoUno{
+        padding-left: 280px;
+    
+    }
+    #parrafoDos{
+        padding-right: 280px;   
+    }
+    #contenedorFooter{
+        padding-left: 200px;
+    }
+    form{
+        padding-left: 90px;
+    }
+}
+@media screen  and (max-width: 1420px){
+     #parrafoUno{
+        padding-left: 260px;
+    
+    }
+    #parrafoDos{
+        padding-right: 260px;   
+    }
+    #pack{
+        padding-left: 10px;
+    }
+    #listaPackNombre{
+        font-size: 14px;
+    }
+}
+@media screen  and (max-width: 1366px){
+     #parrafoUno{
+        padding-left: 260px;
+    
+    }
+    #parrafoDos{
+        padding-right: 260px;
+    }
+    #hero{
+        height: 500px;
+    }
+    #iIconos{
+    font-size: 110px;
+    }
+    #basico{
+        width: 25%;
+    }
+    #pro{
+        width: 25%;
+    }
+    #full{
+        width: 25%;
+    }
+     #listaPackNombre{
+        font-size: 13px;
+    }
+    form{
+        padding-left: 40px;
+    }
+   #contenedorFooter{
+        padding-left: 120px;
+    }
+}
+@media screen  and (max-width: 1320px){
+    #hero{
+        height: 500px;
+    }
+     #parrafoUno{
+        padding-left: 240px;
+    
+    }
+    #parrafoDos{
+        padding-right: 240px;   
+    }
+    #listaPackNombre{
+        font-size: 13px;
+    }
+    #cestaPrecio{
+        padding-right: 20px;
+    }
+    #contenedorFooter{
+        padding-left: 120px;
+    }
+     form{
+        padding-left: 40px;
+    }
+}
+@media screen  and (max-width: 1220px){
+    #ptitulo{
+        padding-top: 150px;
+        font-size: 40px;
+    }
+    #parrafoUno{
+        padding-left: 220px;
+    
+    }
+    #parrafoDos{
+        padding-right: 220px;   
+    }
+    .input{
+        width: 400px;
+        height: 25px;
+}
+    #EnQue{
+        min-height: 200px;
+        max-height: 200px;
+        min-width: 400px;
+        max-width: 400px;
+    }
+    #formulario{
+        width: 40%;
+    }
+    #descripcion{
+        width: 40%;
+    }
+    #pack{
+        width: 25%;
+    }
+    .botonAnadirPack{
+        font-size: 7px;
+        width: 25px;
+        height: 20px;
+    }
+    #cesta{
+        width: 35%;
+        font-size: 14px;
+        height: 510px; 
+    }
+    .reset{
+        font-size: 12px;
+        width: 80px;
+        height:25px;
+    }
+    @media screen  and (max-width: 1120px){
+    #hero{
+        height: 450px;
+    }
+    #parrafoUno{
+        padding-left: 200px;
+    
+    }
+    #parrafoDos{
+        padding-right: 200px;   
+    }
+    .input{
+        width: 350px;
+        height: 25px;
+}
+    #EnQue{
+        min-height: 200px;
+        max-height: 200px;
+        min-width: 350px;
+        max-width: 350px;
+    }
+    #contenedorFooter{
+        padding-left: 100px;
+    }
+}
+@media screen  and (max-width: 1024px){
+     #ptitulo{
+        padding-top: 150px;
+        font-size: 35px;
+    }
+    #hero{
+        height: 400px;
+    } 
+     #parrafoUno{
+        padding-left: 80px;
+        font-size: 20px;
+        width: 40%;
+    }
+    #parrafoDos{
+        padding-right: 80px;
+        font-size: 20px;
+        width: 40%;
+    }
+    #tituloCuarta{
+        font-size: 60px;
+    }
+     form{
+        padding-left: 20px;
+    }
+     #contenedorFooter{
+        padding-left: 80px;
+    }
+    .botonAnadirPack{
+        font-size: 7px;
+        width: 25px;
+        height: 20px;
+    }
+    .pPaquete{
+        font-size: 17px;
+}
+    .ptachado{
+        font-size: 17px;
+    }
+    #cesta{
+        font-size: 14px;
+        height: 510px;        
+    }
+    .reset{
+    font-size: 12px;
+    width: 80px;
+    height:25px;
+    }
+}
+    @media screen  and (max-width: 924px){
+    #ptitulo{
+        padding-top: 130px;
+    }
+    #pack{
+        width: 40%;
+    }
+    #cesta{
+        width: 40%;
+        float: right;
+        margin-right: 10px;
+    }
+    #cestaPrecio{
+        width: 100%;
+        clear: both;
+    }   
+    #botonTotal{
+        clear: both;
+        text-align: center;
+        width: 100%;
+    }
+    #btnTotal{
+        font-size: 20px;
+        width: 150px;
+        height: 50px;
+    }
+    #btnCancelar{
+        font-size: 20px;
+        width: 150px;
+        height: 50px; 
+    }
+    #sextaSeccion{
+        width: 100%;
+        height: 1700px;
+    }
+    #descripcion{
+        text-align: center;
+        width: 60%;
+        float: left;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #formulario{
+        width: 60%;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .input{
+        width: 400px;
+        height: 25px;
+    }
+    #EnQue{
+        min-height: 200px;
+        max-height: 200px;
+        min-width: 400px;
+        max-width: 400px;
+    }
+    #tituloCuarta{
+        font-size: 50px;
+    }
+    #subTitCuarta{
+        font-size: 15px;
+    }
+    #ptituloSegunda{
+        font-size: 40px;
+    }
+    #ptresTituloSegunda{
+        font-size: 20px;
+        margin-top: -80px;
+    }
+    #segundaSeccion{
+        height: 150px; 
+    }
+    #tituloSexta{
+        font-size: 40px;
+    }
+    #subTituloSexta{
+        font-size: 20px;
+        margin-top: -50px;
+    }
+    .divIconos p{
+        font-size: 15px;
+    }
+    #iIconos{
+        font-size: 100px;
+    }
+    #basico{
+        width: 25%;
+    }
+    #pro{
+        width: 25%;
+    }
+    #full{
+        width: 25%;
+    }
+    #contenedorFooter{
+        padding-left: 50px;
+    }
+    #contenedorFooter li{
+        padding: 5px;
+    }
+    #parteUno, #parteDos, #parteTres, #parteCuatro{
+        font-size: 12px;
+    }
+    #parteCuatro i{
+        font-size: 20px;
+        padding: 3px;
+    }
+}
+@media screen  and (max-width: 801px){
+    #parrafoUno{
+        font-size: 15px;
+        width: 70%;
+        float: left;
+        padding-left: 120px;
+    
+    }
+    #parrafoDos{
+        font-size: 15px;
+        width: 70%;
+        float: left;
+        padding-left: 120px;
+    }
+}
+    @media screen  and (max-width: 660px){
+     .aliulmenu {
+        font-size: 12px;
+    }
+    #sublogos{
+        font-size: 12px;
+    }
+    #ptitulo{
+        font-size: 30px;
+        padding-top: 130px;
+    } 
+    #hero{
+        height: 300px;
+    } 
+    #primeraSeccion{
+        clear: both;
+    }
+   #parrafoUno{
+        font-size: 15px;
+        width: 70%;
+        float: left;
+        padding-left: 120px;
+    
+    }
+    #parrafoDos{
+        font-size: 15px;
+        width: 70%;
+        float: left;
+        padding-left: 120px;
+    }
+     #basico{
+        width: 30%;
+    }
+    #pro{
+        width: 30%;
+    }
+    #full{
+        width: 30%;
+    }
+        .input{
+        width: 350px;
+        height: 25px;
+    }
+    #EnQue{
+        min-height: 200px;
+        max-height: 200px;
+        min-width: 350px;
+        max-width: 350px;
+    }#benviar{
+        font-size: 20px;
+        width: 130px;
+        height: 40px;
+        margin-left: 130px;
+    }
+    #modificar{
+        font-size: 20px;
+        width: 130px;
+        height: 40px; 
+    }
+    #parteCuatro i{
+        font-size: 15px;
+        padding: 2px;
+    }
+}
+@media screen  and (max-width: 560px){
+    #ptitulo{
+        font-size: 30px;
+        padding-top: 130px;
+    }
+    #hero{
+        background-size:600px;
+        height: 280px;
+    }
+    .aliulmenu {
+        font-size: 10px;
+    }
+    .ulmenu{
+        padding-right: 40px;
+    }
+     #parrafoUno{
+        padding-left: 90px;
+    
+    }
+    #parrafoDos{
+        padding-left: 90px;
+        margin-bottom: -2px;
+    }
+    #iIconos{
+        font-size: 50px;
+    }
+    .divIconos p{
+        font-size: 10px;
+    }
+    #tituloCuarta{
+        font-size: 30px;
+    }
+    #subTitCuarta{
+        font-size: 15px;
+        margin-top: -30px;
+    }
+    #listaPackNombre{
+        font-size: 10px;
+    }
+    #cesta{
+        font-size: 10px;   
+        height: 450px;
+    } 
+    .reset{
+        font-size: 10px;
+        width:70px;
+        height:20px;
+    }
+    #formulario{
+        width: 90%;
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    .input{
+        font-size: 12px;
+    }
+    #descripcion{
+        width: 90%;
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    #respuesta{
+    font-size: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+    #contenedorFooter{
+        padding-left: 0px;
+    }
+    #contenedorFooter li{
+        padding: 3px;
+    }
+    #parteUno, #parteDos, #parteTres, #parteCuatro{
+        font-size: 10px;
+    }
+    #parteCuatro i{
+        font-size: 15px;
+        padding: 1px;
+    }
+}
+@media screen  and (max-width: 460px){
+     #ptitulo{
+        font-size: 20px;
+        padding-top: 140px;
+    }
+    #parrafoUno{
+        clear: both;
+        font-size: 12px;
+        width: 90%;
+        padding-left: 30px;    
+    }
+    #parrafoDos{
+        clear: both;
+        font-size: 12px;
+        width: 90%;
+        padding-left: 30px;
+        padding-right: 15px;
+    }
+    #pdostitulo{
+        font-size: 20px;
+    }
+    .ulmenu{
+        padding-right: 80px;
+    }
+    #ptituloSegunda{
+        font-size: 30px;
+    }
+    #pDosTituloSegunda{
+        margin-top: -80px;
+    }
+    #ptresTituloSegunda{
+        font-size: 15px;
+        margin-top: -80px;
+    }
+    .divIconos{
+        width: 30%;
+    }
+    .divIconos p{
+        font-size: 10px;
+    }
+    #iIconos{
+        font-size: 40px;
+    }
+    #personalizaTitulo{
+        font-size: 30px;
+}
+    #personalizaSubTitulo{
+        font-size: 15px;
+        margin-top: -30px;
+    }
+    #botonPersonaliza{
+        font-size: 20px;
+        width: 150px;
+        height: 40px;
+    }
+    #pack{
+        clear: both;
+        width: 90%;
+    }
+    #cesta{
+        clear: both;
+        width: 90%;
+    }
+    #btnTotal{
+        font-size: 20px;
+        width: 150px;
+        height: 40px;
+}
+    #btnCancelar{
+        font-size: 20px;
+        width: 150px;
+        height: 40px;
+    }
+    #contenedorFooter{
+        margin-left: -15px;
+        margin-right: 5px;
+    }
+    #contenedorFooter li{
+        padding: 5px;
+}
+    #parteUno, #parteDos, #parteTres, #parteCuatro{
+        font-size: 5px;
+}
+    .h4footer{
+        font-size: 12px;
+        padding-left: 40px;
+    }
+    #parteUno{
+        width: 22%;
+    }
+    #parteDos{
+        width: 22%;
+    }
+    #parteTres{
+        width: 22%
+    }
+    #parteCuatro{
+        width: 22%;
+    }
+    #parteCuatro i{
+        font-size: 9px;
+        padding: 1px;
+    }
+    .precio{
+        font-size: 30px;
+    }
+}
+@media screen  and (max-width: 414px){
+  #logo{
+        width: 100px;
+        height: 30px;
+        padding-left: 0px;
+        padding-top: 30px;
+}
+    #sublogos{
+        font-size: 10px;
+        padding-left: 0px;
+    }
+    .ulmenu {
+        padding-right: 20px;
+    }  
+    .aliulmenu {
+        font-size: 10px;
+    }
+      #ptitulo{
+        font-size: 15px;
+        padding-top: 120px;
+    }
+    #hero{
+        background-size:420px;
+        height: 200px;
+    }
+    #parrafoUno{
+        width: 80%;
+        padding-left: 40px;    
+    }
+    #parrafoDos{
+        width: 80%;
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+    .divIconos{
+        width: 35%;
+    }
+     #tituloCuarta{
+        font-size: 25px;
+    }
+    #subTitCuarta{
+        font-size: 12px;
+        margin-top: -20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #personalizaTitulo{
+        font-size: 25px;
+    }
+    #personalizaSubTitulo{
+        font-size: 12px;
+        margin-top: -20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+     #subTituloSexta{
+        font-size: 15px;
+        margin-top: -50px;
+    }
+     .input{
+        width: 320px;
+        height: 20px;
+        font-size: 12px;
+    }
+    #EnQue{
+        min-height: 150px;
+        max-height: 150px;
+        min-width: 320px;
+        max-width: 320px;
+    }
+     }#benviar{
+        margin-left: 120px;
+    }
+}
+@media screen  and (max-width: 375px){
+    #logo{
+        width: 100px;
+        height: 30px;
+        padding-left: 0px;
+        padding-top: 30px;
+}
+    #sublogos{
+        font-size: 10px;
+        padding-left: 0px;
+    }
+    .ulmenu {
+        padding-right: 20px;
+    }  
+    .aliulmenu {
+        font-size: 10px;
+    }
+     #ptitulo{
+        font-size: 15px;
+        padding-top: 120px;
+    }
+    #hero{
+        background-size:400px;
+        height: 200px;
+    }
+    #parrafoUno{
+        width: 80%;
+        padding-left: 40px;    
+    }
+    #parrafoDos{
+        width: 80%;
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+     #tituloCuarta{
+        font-size: 25px;
+    }
+    #subTitCuarta{
+        font-size: 12px;
+        margin-top: -20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .divIconos{
+        width: 35%;
+    }
+     #personalizaTitulo{
+        font-size: 25px;
+    }
+    #personalizaSubTitulo{
+        font-size: 12px;
+        margin-top: -20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #subTituloSexta{
+        font-size: 15px;
+        margin-top: -50px;
+    }
+     }#benviar{
+        margin-left: 100px;
+    }
+    .input{
+        width: 300px;
+        height: 20px;
+        font-size: 12px;
+    }
+    #EnQue{
+        min-height: 150px;
+        max-height: 150px;
+        min-width: 300px;
+        max-width: 300px;
+    }
+    #parteCuatro i{
+        font-size: 7px;
+        padding: 1px;
+    }
+}
+@media screen  and (max-width: 320px){
+    
+    .input{
+        width: 200px;
+        height: 20px;
+        font-size: 12px;
+    }
+    #EnQue{
+        min-height: 150px;
+        max-height: 150px;
+        min-width: 200px;
+        max-width: 200px;
+    }
+}

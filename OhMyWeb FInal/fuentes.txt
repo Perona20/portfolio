@@ -1,0 +1,7 @@
+font-family: 'Miltonian', cursive;
+font-family: 'Averia Gruesa Libre', cursive;
+font-family: 'Amarante', cursive;
+font-family: 'Frijole', cursive;
+
+
+font-family: 'Gloria Hallelujah', cursive;

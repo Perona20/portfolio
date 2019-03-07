@@ -1,0 +1,1626 @@
+body{
+    background: #4e5b6c;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+p::selection,h4::selection,h1::selection,strong::selection,a::selection,ul::selection,li::selection,div::selection,img::selection,span::selection{
+    background:  #dca459;
+    color: #282f3f;;
+}
+header{
+    background: #4e5b6c;
+    color: white;
+    height: auto;
+    width: 100%;
+    position: fixed; 
+    z-index: 1;
+}
+#logo{
+    width: 150px;
+    height: 60px;
+    padding-left: 0px;
+    padding-top: 8px;
+}
+#sublogos{
+    display: block;
+    font-weight: 800;
+    font-size: 15px;
+    color: white;
+    font-family: 'Amarante', cursive;
+    padding-left: 30px;
+}
+#nombre a {
+    color: white;
+}
+#nombre{
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+}
+#nombre:hover{
+    color: #0b76a6;
+}
+#menu {
+	float: right;
+    padding-top: 80px;
+}
+.ulmenu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+	
+.liulmenu {
+    display: inline-block;
+}
+			
+.aliulmenu {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Amarante', cursive;
+    font-size: 15px;
+}
+.aliulmenu:hover {
+    background:  #dca459;
+    color: #282f3f;
+}
+a#pull{
+    display: none;
+}
+#contenedor{
+    background-image:url(Imagenes/fondo_pantalla.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    width: 100%;
+}
+section{
+    width: 100%;
+}
+#hero{
+    margin-top:-120px;
+    background-image: url(Imagenes/hero.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 990px;
+    text-align: center;
+    width: 100%;
+}
+#presentacion{
+    font-family: 'Gloria Hallelujah', cursive;
+    color: 	#282f3f;
+    text-align: center;
+}
+#botones{
+    
+}
+#preuno{
+    font-size: 120px; 
+    padding-top: 250px;
+}
+#prasec{
+    background-color: transparent;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-color: #282f3f;
+    border-radius: 25px;
+    font-size: 25px;
+    width: 170px;
+    height: 60px;
+}
+#prasec:hover{
+    background-color: #282f3f;
+    color: white;
+    cursor:pointer;
+}
+#sgasec:hover{
+    background-color: #282f3f;
+    color: white;
+    cursor:pointer;
+}
+#trasec:hover{
+    background-color: #282f3f;
+    color: white;
+    cursor:pointer;
+}
+#sgasec{
+    background-color: transparent;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-color: #282f3f;
+    border-radius: 25px;
+     font-size: 25px;
+    width: 170px;
+    height: 60px;
+}
+#trasec{
+    background-color: transparent;
+    font-family: 'Gloria Hallelujah', cursive;
+    border-color: #282f3f;
+    border-radius: 25px;
+    font-size: 25px;
+    width: 170px;
+    height: 60px;
+}
+#espacio{
+    width: 100%;
+    height: 300px;
+}
+#ejemplos{
+    background-color: #fdfdff;
+    height: auto;
+    width: 100%;
+}
+#exposicion{
+    display: block;
+    padding-left: 250px;
+}
+.imgejem{
+    width: 250px ;
+    height: 100px;
+}
+.pejem{
+    color: #4e5b6c;
+    font-size: 15px;
+    font-family: 'Amarante', cursive;
+}
+.ejemplo{
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    background-color: #dfe3ee;
+    padding: 10px;
+    height: auto;
+}
+.ejemplo:hover{ 
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    border: 4px solid #4e5b6c;
+}
+.h4ejem{
+    color: #4e5b6c;
+    font-size: 20px;
+    font-family: 'Amarante', cursive;
+}
+#titulo{
+    text-align: center;
+    color: #8b9dc3;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 80px;
+    margin-top: -79.6px;
+    background-color: #ffffff;
+}
+#ejemplo1{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#ejemplo2{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#ejemplo3{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#ejemplo4{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#ejemplo5{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#ejemplo6{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#localizacion{
+/*    background-image:url(Imagenes/carousel1.jpg);*/
+    background-color: #fdfdff;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: auto;
+}
+#proceso{
+    width: 100%;
+    height: auto;
+    background-color: #dfe3ee;
+    text-align: center;
+}
+#tituloProceso{
+    color: #8b9dc3;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+}
+#iconoProceso{
+    text-align: center;
+    width: 100%;
+}
+#subTitProceso{
+    font-family: 'Amarante', cursive;
+    font-size: 30px;
+    color: #8b9dc3;
+    margin-top: -50px;
+    padding-bottom: 10px;
+        padding-top: 10px;
+}
+#liProceso{
+    list-style: none;
+    display: inline-block;
+    width: 15%;
+}
+#ulProceso{
+   
+}
+aProceso{
+    display: block;
+}
+#iProceso{
+    font-size: 100px;
+    color: #282f3f;
+}
+#iProceso:hover::before{
+    color: #dca459; 
+}
+#pUlProceso{
+    font-family: 'Amarante', cursive;
+    font-size: 15px;
+    color: #8b9dc3;
+}
+#proyectos{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+#TituloSubProyectos{
+   background-color: #dfe3ee; 
+}
+#tituloProyectos{
+    color: #8b9dc3;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+}
+#subTitProyectos{
+    font-family: 'Amarante', cursive;
+    font-size: 30px;
+    color: #8b9dc3;
+    margin-top: -50px;
+}
+#iconosProyectos{
+    text-align: center;
+    width: 100%;
+}
+#todosProyectos{
+    width: 60%;
+    padding-left: 400px;
+}
+#primerProyecto, #segundoProyecto,  #tercerProyecto, #cuartoProyecto, #quintoProyecto, #sextoProyecto{
+ 
+    display: inline-block;
+    width: 33%;
+}
+#iconosProyectosUno,#iconosProyectosDos,#iconosProyectosTres,#iconosProyectosCuatro,#iconosProyectosCinco,#iconosProyectosSeis{
+   
+    border-radius: 9999px;
+}
+#iIconosProyectosUno,#iIconosProyectosDos,#iIconosProyectosTres,#iIconosProyectosCuatro,#iIconosProyectosCinco,#iIconosProyectosSeis{
+    font-size: 100px;
+    color: #282f3f;
+    background-color: #dfe3ee;
+    border-radius: 1000px;
+}
+#iIconosProyectosUno:hover::before , #iIconosProyectosDos:hover::before , #iIconosProyectosTres:hover::before , #iIconosProyectosCuatro:hover::before , #iIconosProyectosCinco:hover::before, #iIconosProyectosSeis:hover::before {
+    color: #282f3f; 
+    background-color:#dca459; 
+    border-radius: 1000px;
+}
+#pUlProyectos{
+    font-family: 'Amarante', cursive;
+    font-size: 20px;
+    color: #282f3f;
+}
+#pSubUlProyectos{
+    font-family: 'Amarante', cursive;
+    font-size: 15px;
+    color: #8b9dc3;
+    padding-left: 50px;
+    padding-right: 50px
+}
+#clientes{
+    background-color: #ffffff; 
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+#array{
+    background-color: #ffffff;
+    margin-top: -60px;
+    padding-top: 30px;
+}
+#logemp{
+    background-color: #fdfdff; 
+    width: 60%; 
+    padding-left: 390px
+}
+#imgempresa{
+    width: 200px;
+    height: 100px; 
+}
+.h1cli{
+    text-align: center;
+    color:#8b9dc3;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 70px;;
+}
+footer{
+    width: 100%;
+    background: #4e5b6c;
+}
+#contenedorFooter{
+    display: block;
+    padding-left: 250px;
+    color: #f7f7f7;
+}
+#contenedorFooter ul {
+    list-style: none;
+}
+#contenedorFooter li{
+    padding: 10px;
+}
+#parteUno, #parteDos, #parteTres, #parteCuatro{
+    font-family: 'Amarante', cursive;
+    font-size: 15px;
+    display: inline-block;
+}
+.h4footer{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+    padding-left: 40px;
+    color: #dca459;
+}
+#parteUno{
+    width: 20%;
+}
+#parteDos{
+    width: 20%;
+}
+#parteTres{
+    width: 20%
+}
+#parteCuatro{
+    width: 20%;
+}
+#parteCuatro i{
+    font-size: 30px;
+    padding: 5px;
+}
+@media screen  and (max-width: 1820px){
+    #h4ejem3{
+        margin-top: 8px;
+    }
+}
+@media screen  and (max-width: 1720px){
+    #h4ejem2{
+        margin-top: 8px;
+    }
+    #todosProyectos{
+        padding-left: 350px;
+    }
+    #logemp{ 
+        width: 70%; 
+        padding-left: 260px
+    }
+}
+@media screen  and (max-width: 1620px){
+    #h4ejem1{
+        margin-top: 8px;
+    }
+    #exposicion{
+        padding-left: 190px;
+    }
+    #todosProyectos{
+        padding-left: 330px;
+    }
+}
+@media screen  and (max-width: 1520px){
+    #exposicion{
+        padding-left: 150px;
+    }
+    #todosProyectos{
+        padding-left: 300px;
+    }
+    #logemp{  
+        padding-left: 240px
+    }
+}
+@media screen  and (max-width: 1420px){
+    #logemp{  
+            width: 80%;
+            padding-left: 130px
+    }
+    #h4ejem1{
+        margin-top: 26px;
+    }
+    #todosProyectos{
+        padding-left: 280px;
+    }
+}
+@media screen  and (max-width: 1366px){
+    body{
+       
+    }
+    header{
+        
+    }
+    #nombre{
+        padding: 0px 0px 0px 15px
+    }
+    #logo{
+        width: 140px;
+        height: 50px;
+        padding-top: 5px;
+    }
+    #sublogos{
+        font-size: 15px;
+    }
+    #menu {
+        padding-top: 60px;
+    }
+    .ulmenu {
+        padding-right: 10px;
+    }			
+    .aliulmenu {
+    font-size: 12px;
+    }
+    #hero{
+        margin-top:-90px;
+        height: 700px;
+    }
+    #preuno{
+        font-size: 90px; 
+        padding-top: 180px;
+    }
+    #prasec{
+        font-size: 20px;
+        width: 150px;
+        height: 50px;
+    }
+    #sgasec{
+        font-size: 20px;
+        width: 150px;
+        height: 50px;
+    }
+    #trasec{
+        font-size: 20px;
+        width: 150px;
+        height: 50px;
+    }
+    #exposicion{
+    padding-left: 250px;
+    }
+    .imgejem{
+    width: 200px ;
+    height: 80px;
+    }
+    .pejem{
+    font-size: 12px;
+    
+    }
+    .ejemplo{
+    width: 20%;
+    padding: 10px;
+    }
+    #titulo{
+        font-size: 50px; 
+        background-color: #ffffff;
+    }
+    #tituloProceso{
+        font-size: 40px;
+    }
+    #subTitProceso{
+        font-size: 20px;
+    }
+    #liProceso{
+        width: 15%;
+        padding: 10px;
+    }
+    #iProceso{
+        font-size: 80px;
+    }
+    #pUlProceso{
+        font-size: 15px;
+    }
+    #TituloSubProyectos{
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+    #tituloProyectos{
+        font-size: 40px;
+    }
+    #subTitProyectos{
+        font-size: 20px;
+        margin-top: -40px;
+    }
+    #todosProyectos{                      
+        padding-left: 270px;
+        padding-top: 30px;
+    }
+    #primerProyecto, #segundoProyecto,  #tercerProyecto, #cuartoProyecto, #quintoProyecto, #sextoProyecto{
+        width: 29%;
+        padding: 11px;
+    }   #iIconosProyectosUno,#iIconosProyectosDos,#iIconosProyectosTres,#iIconosProyectosCuatro,#iIconosProyectosCinco,#iIconosProyectosSeis{
+        font-size: 80px;
+    }
+    #pUlProyectos{
+        font-size: 15px;
+    }
+    #pSubUlProyectos{
+        font-size: 15px;
+        padding-left: 0px;
+        padding-right: 0px
+    }
+    #logemp{ 
+        width: 60%; 
+        padding-left: 270px
+    }
+    #imgempresa{
+        width: 150px;
+        height: 60px; 
+    }
+    .h1cli{
+        font-size: 50px;
+        background-color: #ffffff;
+    }
+    #contenedorFooter{
+        padding-left: 180px;
+    }
+    #contenedorFooter li{
+    padding: 5px;
+    }
+    #parteUno, #parteDos, #parteTres, #parteCuatro{
+        font-size: 12px;
+    }
+    .h4footer{
+        font-size: 15px;
+        padding-left: 45px;
+    }
+    #parteCuatro i{
+        font-size: 20px;
+        padding: 5px;
+    }
+    #espacio{
+        height: 200px;
+    }
+}
+@media screen  and (max-width: 1320px){
+    #h4ejem3{
+        margin-top: 25px;
+    }
+}
+@media screen  and (max-width: 1220px){
+    .imgejem{
+        width: 150px;
+        height: 60px;
+    }
+     #exposicion{
+        padding-left: 210px;
+    }
+    #h4ejem1{
+        margin-top: 8px;
+    }
+    #todosProyectos{
+        padding-left: 250px;
+    }
+    #logemp{  
+        width: 80%;
+        padding-left: 120px
+    }
+    #ulProceso{
+        padding-left: 0px
+    }
+    #primerProyecto, #segundoProyecto,  #tercerProyecto, #cuartoProyecto, #quintoProyecto, #sextoProyecto{
+        width: 26%;
+    }
+}
+@media screen  and (max-width: 1120px){
+    .h4ejem{
+        font-size: 15px;
+    }
+    imgejem{
+        height: 50px;
+    }
+     #h4ejem3{
+         margin-top: 0px;
+         margin-bottom: 0px;
+    }
+    #h4ejem2{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #h4ejem6{
+        margin-top: 5px;
+    }
+    #exposicion{
+        padding-left: 180px;
+    }
+    #pUlProyectos{
+    font-size: 15px;
+    }   
+    #pSubUlProyectos{
+    font-size: 14px;
+    }
+     #todosProyectos{
+        padding-left: 230px;
+    }
+}
+@media screen  and (max-width: 1024px){
+    body{
+        width: 100%;
+    }
+    header{
+       width: 100%; 
+    }
+    #nombre{
+        padding: 25px 0px 0px 20px; 
+        width: 45%;        
+    }
+    #menu {
+       width: 45%;
+        padding-top: 85px;
+    }
+    .ulmenu {
+        padding-left: 250px;
+        padding-right: 0px;
+    }
+    section{
+        width: 100%;
+    }
+    #hero{
+        margin-top:-120px;
+        height: 600px;
+        background-size:none;
+    }
+     #espacio{
+        height: 100px;
+    }
+    #titulo{
+        font-size: 60px; 
+    }
+   #preuno{
+        font-size: 90px; 
+        padding-top: 100px;
+    }
+    #botones{
+        margin-top: -100px;
+    }
+    #exposicion{
+        padding-left: 140px;
+    }
+    .imgejem{
+        width: 150px ;
+        height: 60px;
+    }
+    .ejemplo{
+        width: 23%;
+        padding: 10px;
+        padding: 5px;
+    }
+    #h4ejem2{
+      margin-top: 8px;
+    }
+    #h4ejem1{
+      margin-top: 8px;
+    }
+    #h4ejem3{
+        margin-top: 24px;
+    }
+    #h4ejem6{
+        margin-top: 20px;
+    }
+    .h4ejem{
+        font-size: 15px;
+        margin-bottom: 5px
+    }
+    .pejem{
+        font-size: 12px;
+    }
+    #tituloProceso{
+        font-size: 40px;
+    }
+    #subTitProceso{
+        font-size: 20px;
+    }
+    #liProceso{
+        width: 15%;
+        padding: 10px;
+    }
+    #iProceso{
+        font-size: 80px;
+    }
+    #pUlProceso{
+        font-size: 12px;
+    }
+    #TituloSubProyectos{
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+    #tituloProyectos{
+        font-size: 40px;
+    }
+    #subTitProyectos{
+        font-size: 20px;
+        margin-top: -40px;
+    }
+    #todosProyectos{                      
+        padding-left: 200px;
+        padding-top: 30px;
+    }
+    #primerProyecto, #segundoProyecto,  #tercerProyecto, #cuartoProyecto, #quintoProyecto, #sextoProyecto{
+        width: 29%;
+        padding: 11px;
+    }   #iIconosProyectosUno,#iIconosProyectosDos,#iIconosProyectosTres,#iIconosProyectosCuatro,#iIconosProyectosCinco,#iIconosProyectosSeis{
+        font-size: 80px;
+    }
+    #pUlProyectos{
+        font-size: 15px;
+    }
+    #pSubUlProyectos{
+        font-size: 14px;
+        padding-left: 0px;
+        padding-right: 0px
+    }
+    #logemp{ 
+        width: 60%; 
+        padding-left: 200px
+    }
+    #imgempresa{
+        width: 100px;
+        height: 50px; 
+    }
+    .h1cli{
+        font-size: 60px;;
+    }
+    #contenedorFooter{
+        padding-left: 120px;
+    }
+    #contenedorFooter li{
+    padding: 5px;
+    }
+    #parteUno, #parteDos, #parteTres, #parteCuatro{
+        font-size: 10px;
+    }
+    .h4footer{
+        font-size: 15px;
+        padding-left: 45px;
+    }
+    #parteCuatro i{
+        font-size: 20px;
+        padding: 5px;
+    }
+}
+@media screen  and (max-width: 920px){
+    .ulmenu{
+        padding-left: 200px;
+    }  
+    .h4ejem{
+        font-size: 15px;
+    }
+    .pejem{
+        font-size: 10px;
+    }
+    #exposicion{
+        padding-left: 100px;
+    }
+    #h4ejem3{
+        margin-top: 8px;
+    }
+    #h4ejem1{
+        margin-top: 20px;
+    }
+    #iIconosProyectosUno,#iIconosProyectosDos,#iIconosProyectosTres,#iIconosProyectosCuatro,#iIconosProyectosCinco,#iIconosProyectosSeis{
+        font-size: 50px;
+    }
+    #primerProyecto, #segundoProyecto,  #tercerProyecto, #cuartoProyecto, #quintoProyecto, #sextoProyecto{
+        width: 25%;
+        padding: 11px;
+    } 
+    #pUlProyectos{
+        font-size: 12px;
+    }
+    #todosProyectos{                      
+        padding-left: 170px;
+    }
+    #pSubUlProyectos{
+        font-size: 11px;
+        padding-left: 0px;
+        padding-right: 0px
+    }
+    #logemp{ 
+        width: 80%; 
+        padding-left: 95px;
+    }
+}
+@media screen  and (max-width: 820px){
+     #preuno{
+        font-size: 75px; 
+        padding-top: 100px;
+    }
+    .ulmenu{
+        padding-left: 170px;
+    } 
+    #h4ejem3{
+        margin-top: 20px;
+    }
+    #exposicion{
+        padding-left: 80px;
+    }
+    #h4ejem1{
+        margin-top: 8px;
+    }
+    #iProceso{
+        font-size: 60px;
+    }
+    #primerProyecto, #segundoProyecto,  #tercerProyecto, #cuartoProyecto, #quintoProyecto, #sextoProyecto{
+        width: 29%;
+        padding: 8px;
+    } 
+    #todosProyectos{                       
+        padding-left: 160px;
+        padding-top: 30px;
+    }
+    #logemp{ 
+        width: 90%; 
+        padding-left: 40px;
+    }
+    #contenedorFooter{
+        padding-left: 60px;
+    }
+}
+@media screen  and (max-width: 768px){
+    #logo{
+        width: 150px;
+        height: 40px;
+        padding-top: 20px
+    }
+    #sublogos{
+        font-size: 10px;
+    }
+    #menu {
+        width: 45%;
+        padding-top: 69px;
+    }
+    .aliulmenu {
+        font-size: 10px;
+    }
+    .ulmenu{
+        margin: 0;
+        padding-left: 170px; 
+    }
+    #hero{
+        margin-top:-95px;
+        height: 400px;
+        background-size:none;
+    }
+    #preuno{
+        font-size: 55px; 
+        padding-top: 100px;
+    }
+    #prasec{
+        font-size: 20px;
+        width: 130px;
+        height: 40px;
+    }
+    #sgasec{
+       font-size: 20px;
+        width: 130px;
+        height: 40px;
+    }
+    #trasec{
+        font-size: 20px;
+        width: 130px;
+        height: 40px;
+    }
+    #botones{
+        margin-top: 0px;
+    }
+     #titulo{
+        font-size: 50px; 
+    }
+     #exposicion{
+        padding-left: 30px;
+    }
+    .imgejem{
+        width: 120px ;
+        height: 50px;
+    }
+    .ejemplo{
+        width: 25%;
+        padding: 10px;
+        padding: 5px;
+    }
+    #h4ejem2{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #h4ejem1{
+        margin-top: 0px;
+    }
+     #h4ejem3{
+        margin-top: 0px;
+    }
+    #h4ejem4{
+        margin-top: 12px;
+    }
+     #h4ejem5{
+        margin-top: 15px;
+    }
+    .h4ejem{
+        font-size: 12px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .pejem{
+        font-size: 10px;
+    }
+    #ulProceso{
+        padding-left: 0px;
+    }
+    #liProceso{
+        width: 16%;
+        padding: 10px;
+    }
+    #iProceso{
+        font-size: 60px;
+    }
+    #tituloProyectos{
+        font-size: 35px;
+    }
+    #subTitProyectos{
+        font-size: 18px;
+        margin-top: -35px;
+    }
+    #todosProyectos{                       
+        padding-left: 150px;
+        padding-top: 30px;
+    }
+    #primerProyecto, #segundoProyecto,  #tercerProyecto, #cuartoProyecto, #quintoProyecto, #sextoProyecto{
+        width: 29%;
+        padding: 8px;
+    }  
+    #iIconosProyectosUno,#iIconosProyectosDos,#iIconosProyectosTres,#iIconosProyectosCuatro,#iIconosProyectosCinco,#iIconosProyectosSeis{
+        font-size: 60px;
+    }
+    #pUlProyectos{
+        font-size: 12px;
+    }
+    #pSubUlProyectos{
+        font-size: 10px;
+        padding-left: 0px;
+        padding-right: 0px
+    }
+    #logemp{ 
+        width: 90%; 
+        padding-left: 40px;
+    }
+    #imgempresa{
+        width: 90px;
+        height: 50px; 
+    }
+    .h1cli{
+        font-size: 60px;;
+    }
+    #espacio{
+        height: 100px;
+    }
+    #contenedorFooter{
+        padding-left: 60px;
+    }
+    #contenedorFooter li{
+        padding: 2px;
+    }
+    #parteUno, #parteDos, #parteTres, #parteCuatro{
+        font-size: 10px;
+    }
+    .h4footer{
+        font-size: 15px;
+        padding-left: 45px;
+    }
+    #parteCuatro i{
+        font-size: 15px;
+        padding: 3px;
+    }
+}
+@media screen  and (max-width: 720px){
+    .ulmenu{
+        padding-top: 11px;
+        padding-left: 140px; 
+    }
+    .ejemplo{
+        width: 35%;
+        padding: 10px;
+        padding: 5px;
+    }
+    #h4ejem1{
+        margin-top: 14px;
+        margin-bottom: 0px;
+    }
+    #h4ejem2{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }#h4ejem3{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }#h4ejem4{
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }#h4ejem5{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }#h4ejem6{
+        margin-top: 14px;
+        margin-bottom: 0px;
+    }
+    #exposicion{
+        padding-left: 90px;
+    }
+    #liProceso{
+        width: 20%;
+        padding: 10px;
+    }
+     #iProceso{
+        font-size: 50px;
+    }
+    #primerProyecto, #segundoProyecto,  #tercerProyecto, #cuartoProyecto, #quintoProyecto, #sextoProyecto{
+        width: 30%;
+        padding: 8px;
+    } 
+    #todosProyectos{                         width: 100%;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+     #contenedorFooter{
+        padding-left: 20px;
+    }
+}
+@media screen  and (max-width: 620px){
+    .ulmenu{
+        padding-left: 100px;
+        padding-top: 15px;
+    }
+    #preuno{
+        font-size: 45px; 
+        padding-top: 100px;
+    }
+    #prasec{
+        font-size: 13px;
+        width: 120px;
+        height: 30px;
+    }
+    #sgasec{
+       font-size: 13px;
+        width: 120px;
+        height: 30px;
+    }
+    #trasec{
+        font-size: 13px;
+        width: 120px;
+        height: 30px;;
+    }
+    .ejemplo{
+        width: 40%;
+        padding: 5px;
+    }
+    #h4ejem2{
+        margin-top: 15px;
+    }
+    #h4ejem5{
+        margin-top: 15px;
+    }
+     #exposicion{
+        padding-left: 20px;
+    }
+    #todosProyectos{                         width: 100%;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+    #logemp{ 
+        width: 100%; 
+        padding-left: 0px;
+    }
+    #parteCuatro i{
+        font-size: 15px;
+        padding: 2px;
+    }
+}
+@media screen  and (max-width: 520px){
+    .ulmenu{
+        padding-left: 60px;
+        padding-top: 15px;
+    }
+    #logo{
+        width: 130px;
+        height: 30px;
+        padding-top: 30px
+    }
+    #botones{
+        margin-top: -25px;
+    }
+    #titulo{
+        font-size: 40px;
+    }
+    #exposicion{
+        padding-left: 70px;
+    }
+    .ejemplo{
+        width: 70%;
+        padding: 10px;
+    }
+     #tituloProceso{
+        font-size: 30px;
+    }
+    #subTitProceso{
+        font-size: 15px;
+        margin-top: -25px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    #tituloProyectos{
+        font-size: 30px;
+    }
+    #subTitProyectos{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .h1cli{
+        font-size: 40px;
+    }
+     #parteCuatro i{
+        font-size: 11px;
+        padding: 2px;
+    }
+     #contenedorFooter{
+        padding-left: 0px;
+    }
+}
+/*@media screen  and (max-width: 420px){
+    .ulmenu{
+        padding-left: 0px;
+        padding-top: 15px;
+    }  
+    #preuno{
+        font-size: 40px; 
+        padding-top: 100px;
+    }
+    #prasec{
+        width: 100px;
+    }
+    #sgasec{
+       width: 100px;
+    }
+    #trasec{
+        width: 100px;
+    }
+    #liProceso{
+        width: 40%;
+        padding: 10px;
+    }
+     #iProceso{
+        font-size: 50px;
+    }
+    }
+    #contenedorFooter li{
+        padding: 1px;
+    }
+    #parteUno, #parteDos, #parteTres, #parteCuatro{
+        font-size: 5px;
+    }
+    .h4footer{
+        font-size: 12px;
+        padding-left: 40px;
+    }
+ #parteCuatro i{
+        font-size: 9px;
+        padding: 1px;
+    }
+}*/
+@media screen  and (max-width: 414px){
+    #header{
+    
+    }
+    #nombre{
+        float: left;
+        padding: 20px 0 0 10px;
+        width: 25%
+    }
+    #logo{
+        width: 90px;
+        height: 20px;
+        padding-left: 0px;
+        padding-top: 50px; 
+    }
+    #sublogos{
+        font-size: 5px;
+        padding-left: 0px;
+    }
+    #menu {
+	    float: right;
+        padding-top: 65px;
+    }
+    #espacio{
+        height: 0px;
+    }
+    .ulmenu{
+        padding-left: 70px; 
+    }
+    .aliulmenu {
+        padding: 0px 5px;
+        font-size: 5px;
+    }
+    #hero{
+        background-size:500px;
+        height:250px;
+    }
+    #preuno{
+        font-size: 30px; 
+        padding-top: 100px;
+    }
+    #prasec{
+        font-size: 10px;
+        width: 70px;
+        height: 20px;
+    }
+    #sgasec{
+        font-size: 10px;
+        width: 70px;
+        height: 20px;
+    }
+    #trasec{
+        font-size: 10px;
+        width: 70px;
+        height: 20px;
+    }
+    #botones{
+        margin-top: -15px;
+    }
+    #titulo{
+        font-size: 30px;
+    }
+    #exposicion{
+        padding-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 20px;
+    }
+    .ejemplo{
+        width: 87%;
+        display: block;
+    }
+    #proceso{
+        margin-top: -20px;
+}
+    #tituloProceso{
+        font-size: 20px;
+    }
+    #iconoProceso{
+        width: 87%;
+    }
+    #subTitProceso{
+        font-size: 10px;
+        margin-top: -25px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    #liProceso{
+        display: block;
+        width: 80%;
+    }
+    #ulProceso{
+        padding-left: 80px;
+    }
+    aProceso{
+        display: block;
+    }
+    #iProceso{
+        font-size: 60px;
+    }
+    #pUlProceso{
+        font-size: 10px;
+    }
+    #proyectos{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    #TituloSubProyectos{
+    }
+    #tituloProyectos{
+        font-size: 15px;
+    }
+    #subTitProyectos{
+        font-size: 10px;
+        margin-top: -10px;
+    }
+    #iconosProyectos{
+        text-align: center;
+        width: 90%;
+    }
+    #todosProyectos{
+        width: 87%;
+        padding-left: 30px;
+    }
+    #primerProyecto, #segundoProyecto,  #tercerProyecto, #cuartoProyecto, #quintoProyecto, #sextoProyecto{
+ 
+        display:block;
+        width: 100%;
+    }
+    #iIconosProyectosUno,#iIconosProyectosDos,#iIconosProyectosTres,#iIconosProyectosCuatro,#iIconosProyectosCinco,#iIconosProyectosSeis{
+        font-size: 30px;
+    }
+    #pUlProyectos{
+        font-size: 15px;
+}
+    #pSubUlProyectos{
+        font-size: 10px;
+        padding-left: 50px;
+        padding-right: 50px
+    }
+    #clientes{
+        margin-top: -30px;
+    }
+    #array{
+        background-color: #ffffff;
+        margin-top: -60px;
+        padding-top: 30px;
+    }
+    #logemp{ 
+        width: 90%; 
+        padding-left: 20px
+}
+    #imgempresa{
+        width: 50px;
+        height: 25px; 
+}
+    .h1cli{
+        font-size: 30px;
+    }
+     #contenedorFooter{
+        padding-left: 0px;
+    }
+    #contenedorFooter li{
+        padding: 0px;
+    }
+    #parteUno, #parteDos, #parteTres, #parteCuatro{
+        font-size: 5px;
+    }
+    .h4footer{
+        font-size: 10px;
+        padding-left: 37px;
+    }
+    #parteCuatro i{
+        font-size: 5px;
+        padding: 2px;
+    }
+@media screen  and (max-width: 375px){
+    #header{
+    
+    }
+    #nombre{
+        float: left;
+        padding: 20px 0 0 10px;
+        width: 20%
+    }
+    #logo{
+        width: 90px;
+        height: 20px;
+        padding-left: 0px;
+        padding-top: 50px; 
+    }
+    #sublogos{
+        font-size: 5px;
+        padding-left: 0px;
+    }
+    #menu {
+	    float: right;
+        padding-top: 65px;
+    }
+    #espacio{
+        height: 0px;
+    }
+    .ulmenu{
+        padding-left: 40px; 
+    }
+    .aliulmenu {
+        padding: 0px 5px;
+        font-size: 7px;
+    }
+    #hero{
+        background-size:500px;
+        height:250px;
+    }
+    #preuno{
+        font-size: 30px; 
+        padding-top: 100px;
+    }
+    #prasec{
+        font-size: 10px;
+        width: 70px;
+        height: 20px;
+    }
+    #sgasec{
+        font-size: 10px;
+        width: 70px;
+        height: 20px;
+    }
+    #trasec{
+        font-size: 10px;
+        width: 70px;
+        height: 20px;
+    }
+    #botones{
+        margin-top: -15px;
+    }
+    #titulo{
+        font-size: 30px;
+    }
+    #exposicion{
+        padding-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 20px;
+    }
+    .ejemplo{
+        width: 87%;
+        display: block;
+    }
+    #proceso{
+        margin-top: -20px;
+}
+    #tituloProceso{
+        font-size: 20px;
+    }
+    #iconoProceso{
+        width: 87%;
+    }
+    #subTitProceso{
+        font-size: 10px;
+        margin-top: -25px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    #liProceso{
+        display: block;
+        width: 80%;
+    }
+    #ulProceso{
+        padding-left: 80px;
+    }
+    aProceso{
+        display: block;
+    }
+    #iProceso{
+        font-size: 60px;
+    }
+    #pUlProceso{
+        font-size: 10px;
+    }
+    #proyectos{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    #TituloSubProyectos{
+    }
+    #tituloProyectos{
+        font-size: 15px;
+    }
+    #subTitProyectos{
+        font-size: 10px;
+        margin-top: -10px;
+    }
+    #iconosProyectos{
+        text-align: center;
+        width: 90%;
+    }
+    #todosProyectos{
+        width: 87%;
+        padding-left: 30px;
+    }
+    #primerProyecto, #segundoProyecto,  #tercerProyecto, #cuartoProyecto, #quintoProyecto, #sextoProyecto{
+ 
+        display:block;
+        width: 100%;
+    }
+    #iIconosProyectosUno,#iIconosProyectosDos,#iIconosProyectosTres,#iIconosProyectosCuatro,#iIconosProyectosCinco,#iIconosProyectosSeis{
+        font-size: 30px;
+    }
+    #pUlProyectos{
+        font-size: 15px;
+}
+    #pSubUlProyectos{
+        font-size: 10px;
+        padding-left: 50px;
+        padding-right: 50px
+    }
+    #clientes{
+        margin-top: -30px;
+    }
+    #array{
+        background-color: #ffffff;
+        margin-top: -60px;
+        padding-top: 30px;
+    }
+    #logemp{ 
+        width: 90%; 
+        padding-left: 20px
+}
+    #imgempresa{
+        width: 50px;
+        height: 25px; 
+}
+    .h1cli{
+        font-size: 30px;
+    }
+     #contenedorFooter{
+        padding-left: 0px;
+    }
+    #contenedorFooter li{
+        padding: 0px;
+    }
+    #parteUno, #parteDos, #parteTres, #parteCuatro{
+        font-size: 5px;
+    }
+    .h4footer{
+        font-size: 10px;
+        padding-left: 37px;
+    }
+    #parteCuatro i{
+        font-size: 5px;
+        padding: 2px;
+    }
+}
+@media screen  and (max-width: 360px){
+    #logo{
+        width: 60px;
+        height: 10px;
+        padding-left: 0px;
+        padding-top: 60px; 
+    }
+    .aliulmenu {
+        padding: 0px 5px;
+        font-size: 5px;
+    }
+    #preuno{
+        font-size: 20px; 
+        padding-top: 110px;
+    }
+    #iProceso{
+        font-size: 40px;
+    }
+}
+@media screen  and (max-width: 320px){
+       .ulmenu{
+        padding-left: 20px; 
+    } 
+    #preuno{
+        font-size: 20px; 
+        padding-top: 110px;
+    }
+    #exposicion{
+        padding-left: 0px;
+    }
+    .ejemplo{
+        width: 90%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    #iProceso{
+        font-size: 40px;
+    }
+}

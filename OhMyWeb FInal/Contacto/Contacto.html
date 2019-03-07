@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0" /> 
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
+    type="text/javascript" charset="utf-8"></script>-->
+    <script type="text/javascript" src="../jquery/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="Contacto.js"></script>
+    <link href="Contacto.css" rel="stylesheet">
+    <title>OhMyWeb</title>
+    <link href="https://fonts.googleapis.com/css?family=Amarante|Averia+Gruesa+Libre|Frijole|Miltonian" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> -->
+    </head>
+    <body>
+    <header>
+            <a id="nombre" href="#">
+                <img id="logo" src="../Imagenes/ohmyweb3.png">
+                <span id="sublogos">Diseñamos tu página web</span>
+            </a>
+            <a>
+                <span id="sublogo"></span>
+            </a>
+            <nav id="menu">
+                    <ul class="ulmenu">
+                        <li class="liulmenu"><a class="aliulmenu" href="../index.html">Inicio</a></li>
+                        <li class="liulmenu"><a class="aliulmenu" href="../Empresas/Empresas.html">Empresas</a></li>
+                        <li class="liulmenu"><a class="aliulmenu" href="Contacto.html">Contacto</a></li>
+                    </ul>
+                <a id="pull" href="#">Menu</a>
+            </nav>
+    </header>
+    <section>
+        <div id="contenedor">
+            <div id="hero">
+                <p id="phero">Contáctanos</p>
+            </div>
+            <div id="primeraSeccion">
+                <div id="presentacion">
+                    <p id="ppresentacion">MANTENEMOS VALORES TRADICIONALES</p>
+                    <p id="pdospresentacion">Estaremos encantados de escucharte y responder a cualquier duda relacionada con tu proyecto.
+                    Envíanos un email, llámanos por teléfono, o completa nuestro formulario de contacto y nosotros te llamamos.</p>
+                </div>
+                <div id="formulario">
+                    <form>
+                    <label for="Nombre"><strong>Nombre y Apellidos*</strong></label>
+                    <input class="input" type="text" id="Nombre" name="Nombre"  tabindex="1" maxlength="20">
+                    <div id="errorNombre" class="error"></div>
+                    <br>
+                    <label for="Empresa"><strong>Empresa*</strong></label>
+                    <input class="input" type="text" id="Empresa" name="Empresa" tabindex="2" maxlength="20">
+                    <div id="errorEmpresa" class="error"></div>
+                    <br>
+                    <label for="Localidad"><strong>Localidad*</strong></label>
+                    <input class="input" type="text" id="Localidad" name="Localidad" tabindex="3" maxlength="20">
+                    <div id="errorLocalidad" class="error"></div>
+                    <br>
+                    <label for="Email"><strong>Email*</strong></label>
+                    <input class="input" type="text" id="Email" name="Email" tabindex="4">
+                    <div id="errorEmail" class="error"></div>
+                    <br>
+                    <label for="Telefono"><strong>Teléfono*</strong></label>
+                    <input class="input" type="text" id="Telefono" name="Telefono" tabindex="5">
+                    <div id="errorTelefono" class="error"></div>
+                    <br>
+                    <label for="Como"><strong>¿Como nos has conocido?</strong></label>
+                    <input class="input" type="text" id="Como" name="Como" tabindex="6" maxlength="20">
+                    <div id="errorComo" class="error"></div>
+                    <br>
+                    <label for="EnQue"><strong>¿En qué podemos ayudarte? (máximo 50 caracteres)*</strong></label>
+                    <textarea class="input" type="text" id="EnQue" name="EnQue" tabindex="7" maxlength="50"></textarea> 
+                    <div id="errorEnQue" class="error"></div>
+                    </form>
+                    <div id="boton">
+                        <input type="button" value="Enviar" id="benviar">
+                    </div>
+                </div>
+                <div id="contacto">
+                    <div id="direccion">
+                        <h1>Infórmate</h1>
+                        <span>
+                        <ul id="uldire">
+                            <li><a class="adire">Teléfono: 666887177</a></li>
+                            <li><a class="adire">Email:peronafp20@gmail.com</a></li>
+                            <li><a class="adire">Lunes-Viernes: 8:00h-16:00h</a></li>
+                            <li><a class="adire">Sábado y Domingo: Cerrado</a></li>
+                        </ul>
+                    </span>
+                    </div>
+                    <div id="red">
+                        <h1>En las redes</h1>
+                        <span>
+                        <ul id="ulred">
+                            <li class="lired" ><a class="ared"><i id="iconored" class="fa fa-facebook-square"></i></a></li>
+                            <li class="lired" ><a class="ared"><i id="iconored" class="fa fa-instagram"></i></a></li>
+                            <li class="lired" ><a class="ared"><i id="iconored" class="fa fa-linkedin-square"></i></a></li>
+                            <li class="lired" ><a class="ared"><i id="iconored" class="fa fa-twitter-square"></i></a></li>
+                        </ul>
+                    </span>
+                    </div>
+                    <div id="googlemaps">
+                    <h1 class="h1map">Encuéntranos</h1>
+                    <span>
+                        <ul id="ulmap">
+                            <li><a class="amap">C/Guillem Massot 56 1º</a></li>
+                            <li><a class="amap">07003-Palma de mallorca</a></li>
+                        </ul>
+                    </span>
+                    <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.102238810355!2d2.645905315652907!3d39.579846114032335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129793a56262c8b3%3A0xc0961bc74216a393!2sDise%C3%B1o+p%C3%A1ginas+Web+y+Posicionamiento+Web+-+Kontacta!5e0!3m2!1ses!2ses!4v1512062875094" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                </div>
+            </div>
+            <div id="divFinalizar">
+                <input type="button" value="Volver" id="botonFinalizar">
+            </div>
+        </div>
+    </section>
+    <footer>
+            <div id="contenedorFooter">
+                <div id="parteUno">
+                    <h4 class="h4footer" >OhMyWeb</h4>
+                    <ul>
+                        <li>Design &#38; Responsive Web</li>
+                        <li>Nuestros trabajos</li>
+                        <li>Nuestro Proceso de Trabajo</li>
+                        <li>Lo que incluyen nuestros proyectos</li>
+                        <li>Nuestros Clientes</li>
+                    </ul>
+                </div>
+                <div id="parteDos">
+                    <h4 class="h4footer">Servicios</h4>
+                    <ul>
+                        <li>Diseño web</li>
+                        <li>Análisis</li>
+                        <li>Datos</li>
+                        <li>Desarollo</li>
+                        <li>Maquetación</li>
+                        <li>Programación</li>
+                        <li>Optimización SEO</li>
+                        <li>Gestor de contenidos</li>
+                        <li>Alta en google</li>
+                    </ul>
+                </div>
+                <div id="parteTres">
+                    <h4 class="h4footer" >Empresas</h4>
+                    <ul>
+                        <li>Diseñamos tu web</li>
+                        <li>Analitica Web</li>
+                        <li>Cobertura legal</li>
+                        <li>Hosting y dominios</li>
+                        <li>Posicionamiento en buscadores</li>
+                        <li>Diseño de logotipos</li>
+                        <li>Packs básicas</li>
+                        <li>Packs Profesionales</li>
+                        <li>Personaliza tu web</li>
+                    </ul>
+                </div>
+                <div id="parteCuatro">
+                    <h4 class="h4footer" >Contacto</h4>
+                    <ul>
+                        <li>C/Guillem Massot 56 1º</li>
+                        <li>07003-Palma de mallorca</li>
+                        <li>Teléfono: 666887177</li>
+                        <li>Email:peronafp20@gmail.com</li>
+                        <li>Lunes-Viernes: 8:00h-16:00h</li>
+                        <li>Sábado y Domingo: Cerrado</li>
+                        <li><a class="ared2"><i id="iconored" class="fa fa-facebook-square"></i></a><a class="ared2"><i id="iconored" class="fa fa-instagram"></i></a><a class="ared2"><i id="iconored" class="fa fa-linkedin-square"></i></a><a class="ared2"><i id="iconored" class="fa fa-twitter-square"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
